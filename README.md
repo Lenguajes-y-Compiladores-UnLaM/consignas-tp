@@ -115,7 +115,7 @@ Los temas comunes se describen [aquí](Temas%20Comunes.md)
 Los temas especiales se describen [aquí](Temas%20Especiales.md)
 
 
-## ¿Queé herramientas puedo usar para el Trabajo Práctico?
+## ¿Qué herramientas puedo usar para el Trabajo Práctico?
 
 La cátedra provee plantillas para desarrollar el TP principalmente en Java o Kotlin.
 Estas plantillas son completas: proveen casos de prueba, gestión de dependencias y uso de herramientas modernas.
