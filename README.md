@@ -40,7 +40,9 @@ Nota: Los archivos requeridos ya son provistos/generados por la plantilla, lo qu
 - Todos los casos de prueba presentes en la plantilla elegida deberán pasar.
 - La tabla de símbolos debe generarse respetando la estructura descrita en la consigna.
 
-Envíe el enlace del repositorio generado enviado a: lenguajesycompiladores@gmail.com
+Cree el tag 1.0.0 en su repositorio.
+
+Envíe el enlace del tag generado del repositorio generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Facundo_Grupo15)
 
@@ -68,8 +70,9 @@ Nota: Los archivos requeridos ya son provistos/generados por la plantilla, lo qu
 - El código intermedio debe generarse correctamente.
 - Deben agregarse validaciones semánticas (Por ej: validación de tipos en asignación, variable ya declarada, etc.)
 
+Cree el tag 2.0.0 en su repositorio.
 
-Envíe el enlace del repositorio generado enviado a: lenguajesycompiladores@gmail.com
+Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
@@ -99,7 +102,9 @@ Nota: Los archivos requeridos ya son provistos/generados por la plantilla, lo qu
 - El código assembler debe generarse correctamente.
 - El programa de prueba debe ejecutarse sin problemas en DOSBox.
 
-Envíe el enlace del repositorio generado enviado a: lenguajesycompiladores@gmail.com
+Cree el tag 3.0.0 en su repositorio.
+
+Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
