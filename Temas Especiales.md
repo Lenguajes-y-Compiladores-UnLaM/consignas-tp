@@ -26,7 +26,7 @@ Ejemplo:
 x = ElementInTheMiddle(a, b, c, 1.0, d, 99, 100, -5, e) // Asigna el valor de la variable "d" a la variable "x"
 ```
 
-### Repeat FIB
+### FIB
 
 La función especial Fibonacci (sucesión de Fibonacci) tendrá el siguiente formato:
 
