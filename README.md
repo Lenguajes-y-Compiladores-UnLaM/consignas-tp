@@ -51,7 +51,7 @@ Fecha de entrega: 19/09/2022
 
 ### Segunda Entrega:
 
-**Objetivo:** Realizar un generador de código intermedio utilizando el archivo parser.cup generado en la primera entrega. El programa ejecutable deberá procesar el archivo de entrada (prueba.txt) y devolver el código intermedio del mismo junto con la tabla de símbolos.
+**Objetivo:** Realizar un generador de código intermedio utilizando el archivo parser generado en la primera entrega. El programa ejecutable deberá procesar el archivo de entrada (prueba.txt) y devolver el código intermedio del mismo junto con la tabla de símbolos.
 
 La entrega 2.0.0 incluirá:
 
