@@ -1,7 +1,7 @@
 a = 1
 b = 3
-while (a > b)
+ciclo (a > b)
 {
-    write("a es mas grande que b")
+    ciclo("a es mas grande que b")
     a = a + 1
 }
