@@ -34,7 +34,7 @@ IMPORTANTE: Las variables no guardan su valor en tabla de símbolos.
 Las asignaciones deben ser permitidas, solo en los casos en los que los tipos son compatibles, caso contrario deberá desplegarse un error.
 
 ### Comentarios
-Deberán estar delimitados por `-*` y `*-` y podrán estar anidados en un solo nivel.
+Deberán estar delimitados por `#/` y `\#` y podrán estar anidados en un solo nivel.
 
 [Ejemplo Comentario](ejemplos/comment.txt)
 
