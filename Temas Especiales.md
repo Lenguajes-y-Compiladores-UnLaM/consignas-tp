@@ -1,12 +1,14 @@
 ## Temas especiales
 
-### LastIndexOf
-La función LastIndexOf devuelve el primer índice encontrado del pivot en una lista. LastIndexOf funciona de forma tal que el pivot es comparado con cada elemento de la lista, retornando el indice del primer elemento encontrado. Si no encuentra ninguna ocurrencia la variable no modifica su valor.
-Ejemplo:
+### FirstIndexOf
+La función FirstIndexOf devuelve el índice del primer elemento encontrado en la lista que coincida con el valor del primer parametro. FirstIndexOf funciona de forma tal que el valor del pivot (primer parámetro de la función) es comparado con el valor de cada elemento de la lista, retornando el indice del primer elemento encontrado. Si no encuentra ninguna ocurrencia la variable resultado no modifica su valor. El indice del primer elemento es igual a 1 (a partir de ahi se incrementa hasta el fin de la lista).
 
+Ejemplo:
 ```
-a=3;
-x = LastIndexOf(a; [1,2,b,-5,z,C]) // Asigna el valor de la variable "-5" a la variable "x"
+z=x=0;
+a=b=2;
+C=-5;
+x = FirstIndexOf(a; [1,b,2,-5,z,C]) // x = 2 ya que a == b es verdadero y es la primer coincidencia de la lista.
 ```
 
 ### Timer
