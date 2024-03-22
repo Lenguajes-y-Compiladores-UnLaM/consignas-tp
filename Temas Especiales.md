@@ -18,13 +18,17 @@ La función especial Timer realiza un bucle hasta cumplir con la condicion reali
 Timer(5, WRITE "Hello World")
 ```
 
-### ConcatenarConRecorte
-Esta función toma tres parámetros: cadena1 y cadena2, que son las dos cadenas de texto que deseas concatenar, y posicionRecorte, que es la posición en la que se desea recortar cadena1 antes de concatenarla con cadena2. La función comprueba que posicionRecorte esté dentro del rango válido de posiciones de cadena1 y de cadena2, y si no lo está, devolverá un mensaje de error. Luego se recortaran ambas cadenas. Finalmente, la función devuelve la cadena concatenada resultante.
+### BuscoYReemplazo
+Esta función, de tipo Integer, toma tres parámetros de tipo String (constantes o variables): Se buscará en el segundo String lo q tenga el primero. Si coincide, devolverá 0 y además, reemplazara la cadena encontrada por el tercer String. Sino la encuentra, devolverá -1. Y si la encuentra más de una vez, reemplazara a la última coincidencia, retornando el valor entero del orden coincidente.
 
 **Ejemplo:**
 
 ```
-cadenaResultante = ConcatenarConRecorte("Hola", "Mundo", 2) // Devuelve "lando".
+String buscar = "buscar";
+String en = "Hola, quiero buscar una palabra y reemplazarla en este texto.";
+String reemplazo = "reemplazo";
+
+int resultado = buscoYReemplazo(buscar, en, reemplazo); // Devuelve "0".
 ```
 
 ### EstaContenido
