@@ -1,21 +1,23 @@
 ## Temas especiales
 
-### FirstIndexOf
-La función FirstIndexOf devuelve el índice del primer elemento encontrado en la lista que coincida con el valor del primer parametro. FirstIndexOf funciona de forma tal que el valor del pivot (primer parámetro de la función) es comparado con el valor de cada elemento de la lista, retornando el indice del primer elemento encontrado. Si no encuentra ninguna ocurrencia la variable resultado no modifica su valor. El indice del primer elemento es igual a 1 (a partir de ahi se incrementa hasta el fin de la lista).
+### ContarPrimos
+Dada una lista de expresiones (de variables y constantes), la funcion contarPrimos devolvera la cantidad de numeros primos encontrados.
 
-Ejemplo:
+**Ejemplo:**
 ```
 z=x=0;
 a=b=2;
-C=-5;
-x = FirstIndexOf(a; [1,b,2,-5,z,C]) // x = 2 ya que a == b es verdadero y es la primer coincidencia de la lista.
+C=-53;
+x = ContarPrimos([11,b+8,2,55,z*b+7,C]) // x = 4
 ```
 
-### Timer
-La función especial Timer realiza un bucle hasta cumplir con la condicion realizando una operacion en su segundo parametro. La condicion siempre será un entero positivo (validar) y arranca a contar desde el número cero.
+### UntilLoop
+Esta función realiza un bucle hasta cumplir con la condicion realizando una operacion en su segundo parametro. La condicion siempre será un entero positivo mayor a la variable que recibe el resultado de la operacion.
 
+**Ejemplo:**
 ```
-Timer(5, WRITE "Hello World")
+x = 0;
+UntilLoop(11>x, x=3+x)
 ```
 
 ### BuscoYReemplazo
@@ -31,11 +33,11 @@ String reemplazo = "reemplazo";
 int resultado = buscoYReemplazo(buscar, en, reemplazo); // Devuelve "0".
 ```
 
-### EstaContenido
-La función verificará si cadena2 contiene la subcadena cadena1 o viceversa. Si está presente, la función devuelve true. De lo contrario, devuelve false. Esta funcion DEBE usarse en estructuras condicionales, ya sea IF, WHILE, etc. Puede combinarse con otras condiciones.
+### AplicarDescuento
+Esta función recibe el monto de descuento (y porcentaje, siendo este menor a 100%), la lista de precios y el índice a partir del cual se aplicarán los descuentos por porcentaje. Antes de este índice, se aplica el descuento por monto, mientras que a partir de este índice se aplica el descuento por porcentaje. La función maneja los casos en los que la lista está vacía o el índice es mayor o igual al tamaño de la lista, mostrando un mensaje de error en esos casos..
 
 **Ejemplo:**
 
 ```
-IF(EstaContenido("Homplato", "plato")) // Devuelve true.
+aplicarDescuento(float montoDescuento, List<Float> listaPrecios, int indice)
 ```
