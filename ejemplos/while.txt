@@ -1,8 +1,8 @@
 a = 1
 b = 3
 
-ciclo (a > b)
+mientras (a > b)
 {
-    write("a es mas grande que b")
+    escribir("a es mas grande que b")
     a = a + 1
 }
