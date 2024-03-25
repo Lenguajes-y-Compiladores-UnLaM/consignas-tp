@@ -1,10 +1,10 @@
 ## Temas comunes
 
-### Ciclo
+### Mientras
 
 [Ejemplo](ejemplos/while.txt)
 
-### If
+### Si / Si - sino
 
 [Ejemplo](ejemplos/if.txt)
 
