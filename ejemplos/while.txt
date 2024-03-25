@@ -1,8 +1,8 @@
-a = 1
-b = 3
+a := 1
+b := 3
 
 mientras (a > b)
 {
     escribir("a es mas grande que b")
-    a = a + 1
+    a := a + 1
 }
