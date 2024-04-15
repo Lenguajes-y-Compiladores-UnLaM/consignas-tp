@@ -43,7 +43,7 @@ aplicarDescuento(float montoDescuento, [ List<Float> listaPrecios ], int indice)
 
 **Ejemplos:**
 ```
-aplicarDescuento(27.5, [500, 305, 79.4, 10], 3)        // El resultado de la función será " 472.5, 277.5, 57.56, 7.25"
+aplicarDescuento(27.5, [500, 305, 79.4, 10], 3)        // El resultado de la función será "472.5, 277.5, 57.56, 7.25"
 ```
 - El descuento para el primer elemento: 500 - 27.5 = 472.5
 - El descuento para el segundo elemento: 305 - 27.5 = 277.5
