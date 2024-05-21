@@ -26,11 +26,11 @@ Esta función, de tipo Integer, toma tres parámetros de tipo String (constantes
 **Ejemplo:**
 
 ```
-String buscar = "buscar";
-String en = "Hola, quiero buscar una palabra y reemplazarla en este texto.";
-String reemplazo = "reemplazo";
+buscar = "buscar";
+en = "Hola, quiero buscar una palabra y reemplazarla en este texto.";
+reemplazo = "reemplazo";
 
-int resultado = buscoYReemplazo(buscar, en, reemplazo); // Devuelve "0".
+resultado = buscoYReemplazo(buscar, en, reemplazo); // Devuelve "0".
 ```
 
 ### AplicarDescuento
