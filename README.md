@@ -44,9 +44,9 @@ Cree el tag 1.0.0 en su repositorio.
 
 Envíe el enlace del tag generado del repositorio generado enviado a: lenguajesycompiladores@gmail.com
 
-Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Facundo_Grupo15)
+Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc)
 
-Fecha de entrega: 29/04/2024
+Fecha de entrega: 09/09/2024
 
 
 ### Segunda Entrega:
@@ -76,7 +76,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-Fecha de entrega: 27/05/2024
+Fecha de entrega: 14/10/2024
 
 ### Entrega final
 
@@ -108,7 +108,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-Fecha de entrega: 10/06/2024
+Fecha de entrega: 28/10/2024
 
 
 ## Temas comunes
