@@ -25,10 +25,9 @@ y = triangulo(0, 1/x, 0) // y = "isóceles"
 y = triangulo((32+5+x)*z, 1/x, 100) // y = "escaleno"
 ```
 
-### subListString
-La funcion especial subListString devuelve un string que se forma a partir de un indice especificado en la lista (inclusive) e incluye un contador respecto a cuantas veces aparecio el valor del índice en la palabra formada.
+### binaryCount
+La funcion especial binaryCount cuenta la cantidad de numeros binarios en una lista y devuelve un entero corresponde a esa cantidad
 ```
 x = 3 // asignaciones a fines de entender los ejemplos
-y = subListString(x, [1, 2, h, x, l, l, o])  // y = "hxllo - 0"
-y = subListString(4, [1, 2, 3, 100, 150, 500, 4, 5002, 4) // y = "150500450024 - 2"
+y = binaryCount([110,1,0,5,x,10101100,-1])  // y = 4
 ```
