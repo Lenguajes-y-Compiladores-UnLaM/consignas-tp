@@ -15,3 +15,14 @@ Dado 2 parametros, un pivote (cte entero) y una lista de numeros (constantes ent
 ```
 x = sumaLosUltimos(4; [28,13.5,4,5.5,17,52])  // x = 74.5
 ```
+
+### triangulo
+La función especial triángulo recibe tres parámetros que pueden ser constantes, variables u operaciones aritméticas y retorna una constante string que será "equilátero", "isóceles" o "escaleno". Cada parámetro representa el lado de un tríangulo y si los tres lados son de igual medida, se llaman equiláteros; si los dos lados son de igual medida, se llaman isósceles y si los tres lados son de diferente medida, se llaman escalenos.
+```
+x = 2, z = 3 // asignaciones a fines de entender los ejemplos
+y = triangulo(x, 1+1, x)  // y = "equilatero"
+y = triangulo(0, 1/x, 0) // y = "isóceles"
+y = triangulo((32+5+x)*z, 1/x, 100) // y = "escaleno"
+```
+
+### asignacionInversa
