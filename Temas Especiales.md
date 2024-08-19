@@ -25,4 +25,10 @@ y = triangulo(0, 1/x, 0) // y = "isóceles"
 y = triangulo((32+5+x)*z, 1/x, 100) // y = "escaleno"
 ```
 
-### asignacionInversa
+### subListString
+La funcion especial subListString devuelve un string que se forma a partir de un indice especificado en la lista (inclusive) e incluye un contador respecto a cuantas veces aparecio el valor del índice en la palabra formada.
+```
+x = 3 // asignaciones a fines de entender los ejemplos
+y = subListString(x, [1, 2, h, x, l, l, o])  // y = "hxllo - 0"
+y = subListString(4, [1, 2, 3, 100, 150, 500, 4, 5002, 4) // y = "150500450024 - 2"
+```
