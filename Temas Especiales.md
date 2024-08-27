@@ -1,11 +1,11 @@
 ## Temas especiales
 
 ### getPenultimatePosition 
-Dado 2 parametros, un pivote (cconstante entera) y una lista de numeros (constantes enteras y flotantes), la función getPenultimatePosition devolverá el valor de la lista a traves de la posición dada. Si el valor del pivote es menor a 1 (uno) o excede la cantidad de elementos, devuelve cero (0).
+Dado una lista de numeros (constantes enteras y flotantes), la función getPenultimatePosition devolverá el valor de la lista de la penultima posición.
 
 **Ejemplo:**
 ```
-x = getPenultimatePosition(3; [3, 8.2, 2, 55.5, 7, 252]) // x = 2
+x = getPenultimatePosition([3, 8.2, 2, 55.5]) // x = 2
 ```
 
 ### sumaLosUltimos
