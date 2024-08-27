@@ -12,6 +12,10 @@
 
 [Ejemplo](ejemplos/assignments.txt)
 
+### Operaciones Aritméticas
+
+[Ejemplo](ejemplos/arithmetic.txt)
+
 ### Tipos de datos
 
 - Float (32 bits): el separador decimal será el punto “.”
