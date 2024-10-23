@@ -76,7 +76,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-Fecha de entrega: 07/10/2024
+Fecha de entrega: 14/10/2024
 
 ### Entrega final
 
@@ -108,7 +108,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-Fecha de entrega: 28/10/2024
+Fecha de entrega: 11/11/2024
 
 
 ## Temas comunes
