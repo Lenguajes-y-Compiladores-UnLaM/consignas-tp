@@ -1,8 +1,8 @@
-si (a > b)
+if (a > b)
 {
-    escribir("a es mas grande que b")
+    write("a es mas grande que b")
 }
-sino
+else
 {
-    escribir("a es mas chico o igual a b")
+    write("a es mas chico o igual a b")
 }
