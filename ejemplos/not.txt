@@ -4,5 +4,5 @@ c := 2
 
 if (NOT a > b)
 {
-    escribir("a no es mas grande que b")
+    write("a no es mas grande que b")
 }
