@@ -4,7 +4,7 @@
 
 [Ejemplo](ejemplos/while.txt)
 
-### If / Si - ifelse
+### If / if - else
 
 [Ejemplo](ejemplos/if.txt)
 
