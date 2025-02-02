@@ -4,5 +4,5 @@ c := 2
 
 if (a > b OR c > b)
 {
-    escribir("a es mas grande que b o c es mas grande que b")
+    write("a es mas grande que b o c es mas grande que b")
 }
