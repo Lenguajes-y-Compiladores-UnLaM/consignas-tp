@@ -1,8 +1,8 @@
 a := 1
 b := 3
 
-mientras (a > b)
+while (a > b)
 {
-    escribir("a es mas grande que b")
+    write("a es mas grande que b")
     a := a + 1
 }
