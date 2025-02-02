@@ -1,10 +1,10 @@
 ## Temas comunes
 
-### Mientras
+### While
 
 [Ejemplo](ejemplos/while.txt)
 
-### Si / Si - sino
+### If / Si - ifelse
 
 [Ejemplo](ejemplos/if.txt)
 
@@ -20,7 +20,7 @@
 
 - Float (32 bits): el separador decimal será el punto “.”
 - Int (16 bits)
-- String: constantes de 40 caracteres alfanuméricos como máximo, limitada por comillas (“ “) ,de la forma “XXXX”
+- String: constantes de 50 caracteres alfanuméricos como máximo, limitada por comillas (“ “) ,de la forma “XXXX”
 
 [Ejemplo](ejemplos/assignments.txt)
 
@@ -38,7 +38,7 @@ IMPORTANTE: Las variables no guardan su valor en tabla de símbolos.
 Las asignaciones deben ser permitidas, solo en los casos en los que los tipos son compatibles, caso contrario deberá desplegarse un error.
 
 ### Comentarios
-Deberán estar delimitados por `*-` y `-*` y podrán estar anidados en un solo nivel.
+Deberán estar delimitados por `#+` y `+#` y podrán estar anidados en un solo nivel.
 
 [Ejemplo Comentario](ejemplos/comment.txt)
 
