@@ -63,9 +63,17 @@ reorder([r*j-2, x+3, 1+1, 9-x],0,3)  // no reordena porque no hay expresiones de
 reorder([r*j-2, x+3, 1+1, 9-x],1,0)  // no reordena porque no hay expresiones del lado derecho del pivote
 ```
 
-### binaryCount
-La funcion especial binaryCount cuenta la cantidad de numeros binarios en una lista y devuelve un entero corresponde a esa cantidad
+### sliceAndConcat
+La funcion especial sliceAndConcat recibe 5 parámetros:
+
+limiteInicial (entero): Posición de inicio para realizar un corte en una de las cadenas.
+limiteFinal (entero): Posición final para el corte en una de las cadenas.
+palabra1 (String): La primera palabra que se utilizará para el corte.
+palabra2 (String): La segunda palabra en la que se concatenará el resultado del corte.
+concatenarEnPalabra2 (boolean): Determina si el corte se realizará sobre palabra1 y el resultado se concatenará a palabra2 (si es false), o si el corte se realizará sobre palabra2 y el resultado se concatenará a palabra1 (si es true).
+
+La función debe hacer un corte (slice) en la cadena indicada por los parámetros limiteInicial y limiteFinal y luego concatenar el segmento obtenido a la otra palabra, según el valor de concatenarEnPalabra2. La cadena resultante debe ser devuelta.
 ```
-x = 3 // asignaciones a fines de entender los ejemplos
-y = binaryCount([110,1,0,5,x,10101100,-1])  // y = 4
+y = sliceAndConcat(3, 6, "amarillo", "verde", 0)
 ```
+La función debe devolver el resultado de cortar el texto "amarillo" desde el índice 3 hasta el 6 ("ill") y concatenarlo con "verde", resultando en: "verdeill".
