@@ -25,12 +25,14 @@ x = negativeCalculation(-4.0, 2.3, c, 5.6)
 // x := (-4.0) + (-1.7) = -5.7  
 ```
 
-### sumaLosUltimos
-Dado 2 parametros, un pivote (cconstante entera) y una lista de numeros (constantes enteras y flotantes), la función sumaLosUltimos devolverá la sumatoria de los elementos a partir del valor del pivote (inclusive). Si el valor del pivote es menor a 1 (uno) o excede la cantidad de elementos, devuelve cero (0).
+### sumFirstPrimes
+Implementar una función llamada sumFirstPrimes que calcule la sumatoria de los N primeros números primos.
+
+La función debe recibir un número entero N como parámetro y devolver la suma de los N primeros números primos.
 
 **Ejemplo:**
 ```
-x = sumaLosUltimos(4; [28, 13.5, 4, 5.5, 17, 52])  // x = 74.5 // (5.5 + 17 + 52)
+x = sumFirstPrimes(5)  // x = 2 + 3 + 5 + 7 + 11 = 28
 ```
 
 ### triangulo
