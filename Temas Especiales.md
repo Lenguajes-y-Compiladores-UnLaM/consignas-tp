@@ -1,11 +1,28 @@
 ## Temas especiales
 
-### getPenultimatePosition 
-Dado una lista de numeros (constantes enteras y flotantes), la función getPenultimatePosition devolverá el valor de la lista de la penultima posición.
+### negativeCalculation 
+Implemente una función llamada negativeCalculation que reciba como único parámetro una lista de variables y/o constantes de tipo Float, donde los elementos pueden ser tanto negativos como positivos.
 
-**Ejemplo:**
+La lista estará encerrada entre paréntesis y sus elementos estarán separados por comas.
+La función debe analizar la cantidad de valores negativos dentro de la lista:
+Si la cantidad de números negativos es par, la función deberá sumar todos los valores negativos y devolver el resultado en una variable.
+Si la cantidad de números negativos es impar, la función deberá multiplicar todos los valores negativos y devolver el resultado en una variable.
+Se debe garantizar que la función maneje correctamente listas con distintos casos, incluyendo aquellas sin valores negativos.
+
+**Ejemplos:**
 ```
-x = getPenultimatePosition([3, 8.2, 2, 55.5]) // x = 2
+a := 4.1
+b := -1.5
+
+x = negativeCalculation(3.5, -2.0, a, b, -3.0)  
+// Cantidad de negativos: 3 (impar)  
+// x := (-2.0) * (-1.5) * (-3.0) = -9.0
+
+c := -1.7
+
+x = negativeCalculation(-4.0, 2.3, c, 5.6)  
+// Cantidad de negativos: 2 (par)  
+// x := (-4.0) + (-1.7) = -5.7  
 ```
 
 ### sumaLosUltimos
