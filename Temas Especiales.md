@@ -1,41 +1,5 @@
 ## Temas especiales
 
-### negativeCalculation 
-Implemente una función llamada negativeCalculation que reciba como único parámetro una lista de variables y/o constantes de tipo Float, donde los elementos pueden ser tanto negativos como positivos.
-
-La lista estará encerrada entre paréntesis y sus elementos estarán separados por comas.
-La función debe analizar la cantidad de valores negativos dentro de la lista:
-Si la cantidad de números negativos es par, la función deberá sumar todos los valores negativos y devolver el resultado en una variable.
-Si la cantidad de números negativos es impar, la función deberá multiplicar todos los valores negativos y devolver el resultado en una variable.
-Se debe garantizar que la función maneje correctamente listas con distintos casos, incluyendo aquellas sin valores negativos.
-
-**Ejemplos:**
-```
-a := 4.1
-b := -1.5
-
-x = negativeCalculation(3.5, -2.0, a, b, -3.0)  
-// Cantidad de negativos: 3 (impar)  
-// x := (-2.0) * (-1.5) * (-3.0) = -9.0
-```
-```
-c := -1.7
-
-x = negativeCalculation(-4.0, 2.3, c, 5.6)  
-// Cantidad de negativos: 2 (par)  
-// x := (-4.0) + (-1.7) = -5.7  
-```
-
-### sumFirstPrimes
-Implementar una función llamada sumFirstPrimes que calcule la sumatoria de los N primeros números primos.
-
-La función debe recibir un número entero N como parámetro y devolver la suma de los N primeros números primos.
-
-**Ejemplo:**
-```
-x = sumFirstPrimes(5)  // x = 2 + 3 + 5 + 7 + 11 = 28
-```
-
 ### reorder
 La función especial reorder recibe tres parámetros:
 *Lista de expresiones: La lista está entre corchetes y las expresiones separadas por comas.
@@ -77,3 +41,39 @@ La función debe hacer un corte (slice) en la cadena indicada por los parámetro
 y = sliceAndConcat(3, 6, "amarillo", "verde", 0)
 ```
 La función debe devolver el resultado de cortar el texto "amarillo" desde el índice 3 hasta el 6 ("ill") y concatenarlo con "verde", resultando en: "verdeill".
+
+### negativeCalculation 
+Implemente una función llamada negativeCalculation que reciba como único parámetro una lista de variables y/o constantes de tipo Float, donde los elementos pueden ser tanto negativos como positivos.
+
+La lista estará encerrada entre paréntesis y sus elementos estarán separados por comas.
+La función debe analizar la cantidad de valores negativos dentro de la lista:
+Si la cantidad de números negativos es par, la función deberá sumar todos los valores negativos y devolver el resultado en una variable.
+Si la cantidad de números negativos es impar, la función deberá multiplicar todos los valores negativos y devolver el resultado en una variable.
+Se debe garantizar que la función maneje correctamente listas con distintos casos, incluyendo aquellas sin valores negativos.
+
+**Ejemplos:**
+```
+a := 4.1
+b := -1.5
+
+x = negativeCalculation(3.5, -2.0, a, b, -3.0)  
+// Cantidad de negativos: 3 (impar)  
+// x := (-2.0) * (-1.5) * (-3.0) = -9.0
+```
+```
+c := -1.7
+
+x = negativeCalculation(-4.0, 2.3, c, 5.6)  
+// Cantidad de negativos: 2 (par)  
+// x := (-4.0) + (-1.7) = -5.7  
+```
+
+### sumFirstPrimes
+Implementar una función llamada sumFirstPrimes que calcule la sumatoria de los N primeros números primos.
+
+La función debe recibir un número entero N como parámetro y devolver la suma de los N primeros números primos.
+
+**Ejemplo:**
+```
+x = sumFirstPrimes(5)  // x = 2 + 3 + 5 + 7 + 11 = 28
+```
