@@ -40,7 +40,7 @@ La función debe hacer un corte (slice) en la cadena indicada por los parámetro
 ```
 y = sliceAndConcat(3, 6, "amarillo", "verde", 0)
 ```
-La función debe devolver el resultado de cortar el texto "amarillo" desde el índice 3 hasta el 6 ("ill") y concatenarlo con "verde", resultando en: "verdeill".
+La función debe devolver el resultado de cortar el texto "amarillo" desde el índice 3 hasta el 6 ("ill") y concatenarlo con "verde", resultando en: "verderill".
 
 ### negativeCalculation 
 Implemente una función llamada negativeCalculation que reciba como único parámetro una lista de variables y/o constantes de tipo Float, donde los elementos pueden ser tanto negativos como positivos.
