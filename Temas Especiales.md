@@ -26,6 +26,7 @@ reorder([r*j-2, x+3, 1+1, 9-x],0,3)  // no reordena porque no hay expresiones de
 ```
 reorder([r*j-2, x+3, 1+1, 9-x],1,0)  // no reordena porque no hay expresiones del lado derecho del pivote
 ```
+Nota: la lista reordenada (en caso de haya sucedido) debe mostrarse/visualizarce de alguna manera al momento de hacer la GCI:
 
 ### sliceAndConcat
 La funcion especial sliceAndConcat recibe 5 parámetros:
@@ -69,9 +70,9 @@ x = negativeCalculation(-4.0, 2.3, c, 5.6)
 ```
 
 ### sumFirstPrimes
-Implementar una función llamada sumFirstPrimes que calcule la sumatoria de los N primeros números primos.\
+Implementar una función llamada sumFirstPrimes que calcule la sumatoria de los N primeros números primos.
 
-La función debe recibir un número entero N como parámetro y devolver la suma de los N primeros números primos.\
+La función debe recibir un número entero N como parámetro y devolver la suma de los N primeros números primos.
 
 **Ejemplo:**
 ```
