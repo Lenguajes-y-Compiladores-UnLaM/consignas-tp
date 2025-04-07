@@ -30,7 +30,7 @@ reorder([r*j-2, x+3, 1+1, 9-x],1,0)  // no reordena porque no hay expresiones de
 ### sliceAndConcat
 La funcion especial sliceAndConcat recibe 5 parámetros:
 
-limiteInicial (entero): Posición de inicio para realizar un corte en una de las cadenas.[\]
+limiteInicial (entero): Posición de inicio para realizar un corte en una de las cadenas.\
 limiteFinal (entero): Posición final para el corte en una de las cadenas.
 palabra1 (String): La primera palabra que se utilizará para el corte.
 palabra2 (String): La segunda palabra en la que se concatenará el resultado del corte.
