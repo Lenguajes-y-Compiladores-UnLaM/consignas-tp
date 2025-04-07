@@ -4,7 +4,7 @@
 La función especial reorder recibe tres parámetros:\
 *Lista de expresiones: La lista está entre corchetes y las expresiones separadas por comas.\
 *Valor booleano: Un valor que indica la dirección del reordenamiento. Si el valor es 1, la parte de la lista que debe reordenarse será la que está a la izquierda del pivote. Si el valor es 0, será la de la derecha.\
-*Entero pivote: Un valor entero que marca la posición en la lista desde la cual se inicia el reordenamiento. Este índice actúa como punto de referencia para dividir la lista en dos partes.\
+*Entero pivote: Un valor entero que marca la posición en la lista desde la cual se inicia el reordenamiento. Este índice actúa como punto de referencia para dividir la lista en dos partes.
 
 La función reorder tomará la lista de expresiones y, dependiendo del valor del booleano, realizará un reordenamiento de las expresiones a partir de la posición indicada por el pivote. Si el valor booleano es 1, la parte de la lista a la izquierda del pivote debe ser reordenada de forma que la primera expresión ocupe la posición del pivote, la segunda la posición anterior, y así sucesivamente. Si el valor booleano es 0, se reordenará la parte de la lista a la derecha del pivote de forma similar.\
 Se debe validar que el valor del pivote no exceda la cantidad de expresiones.
@@ -34,7 +34,7 @@ limiteInicial (entero): Posición de inicio para realizar un corte en una de las
 limiteFinal (entero): Posición final para el corte en una de las cadenas.\
 palabra1 (String): La primera palabra que se utilizará para el corte.\
 palabra2 (String): La segunda palabra en la que se concatenará el resultado del corte.\
-concatenarEnPalabra2 (boolean): Determina si el corte se realizará sobre palabra1 y el resultado se concatenará a palabra2 (si es false), o si el corte se realizará sobre palabra2 y el resultado se concatenará a palabra1 (si es true).\
+concatenarEnPalabra1 (boolean): Determina si el corte se realizará sobre palabra1 y el resultado se concatenará a palabra2 (si es false), o si el corte se realizará sobre palabra2 y el resultado se concatenará a palabra1 (si es true).
 
 La función debe hacer un corte (slice) en la cadena indicada por los parámetros limiteInicial y limiteFinal y luego concatenar el segmento obtenido a la otra palabra, según el valor de concatenarEnPalabra2. La cadena resultante debe ser devuelta.
 ```
