@@ -15,54 +15,52 @@ false si todas las expresiones son diferentes.
 
 El valor booleano resultante podrá ser utilizado directamente como condición en sentencias de control como IF y WHILE.
 
-
 **Ejemplo:**
 ```
-Integer a = 2;
-Integer b = 3;
+Integer a := 2;
+Integer b := 3;
 Boolean y;
-y = equalExpressions(a + b, 5, c * 2, 3 + 2, a + b)
+y := equalExpressions(a + b, 5, c * 2, 3 + 2, a + b)
 ```
 
-### sliceAndConcat
-La funcion especial sliceAndConcat recibe 5 parámetros:
+### charRepeat
+Se desea implementar una función semántica llamada charRepeat que determine si un carácter aparece en una cadena una cantidad de veces igual a la indicada por una constante o variable entera.
 
-limiteInicial (entero): Posición de inicio para realizar un corte en una de las cadenas.\
-limiteFinal (entero): Posición final para el corte en una de las cadenas.\
-palabra1 (String): La primera palabra que se utilizará para el corte.\
-palabra2 (String): La segunda palabra en la que se concatenará el resultado del corte.\
-concatenarEnPalabra1 (boolean): Determina si el corte se realizará sobre palabra1 y el resultado se concatenará a palabra2 (si es false), o si el corte se realizará sobre palabra2 y el resultado se concatenará a palabra1 (si es true).
+La función recibirá tres parámetros:
 
-La función debe hacer un corte (slice) en la cadena indicada por los parámetros limiteInicial y limiteFinal y luego concatenar el segmento obtenido a la otra palabra, según el valor de concatenarEnPalabra2. La cadena resultante debe ser devuelta.
+Un carácter (ejemplo: 'a').
+
+Una cadena (ejemplo: "banana").
+
+Una variable o constante entera que indica la cantidad de repeticiones esperadas (ejemplo: 3).
+
+La función devolverá un valor booleano:
+
+true si el carácter aparece en la cadena exactamente la cantidad de veces indicada por el entero.
+
+false en caso contrario.
+
+Este valor podrá ser utilizado directamente como condición en estructuras de control IF y WHILE.
+**Ejemplo:**
 ```
-y = sliceAndConcat(3, 6, "amarillo", "verde", 0)
+y := charRepeat('a', "banana", 3)
 ```
-La función debe devolver el resultado de cortar el texto "amarillo" desde el índice 3 hasta el 6 ("rill") y concatenarlo con "verde", resultando en: "verderill".
 
-### negativeCalculation 
-Implemente una función llamada negativeCalculation que reciba como único parámetro una lista de variables y/o constantes de tipo Float, donde los elementos pueden ser tanto negativos como positivos.
+### IsolatingX 
+Se desea implementar una función semántica llamada isolatingX que, dadas dos ecuaciones matemáticas que contienen una única variable X, resuelva el sistema obteniendo el valor de dicha variable al despejar X.
 
-La lista estará encerrada entre paréntesis y sus elementos estarán separados por comas.\
-La función debe analizar la cantidad de valores negativos dentro de la lista:\
-Si la cantidad de números negativos es par, la función deberá sumar todos los valores negativos y devolver el resultado en una variable.\
-Si la cantidad de números negativos es impar, la función deberá multiplicar todos los valores negativos y devolver el resultado en una variable.\
-Se debe garantizar que la función maneje correctamente listas con distintos casos, incluyendo aquellas sin valores negativos.
+La función recibirá dos expresiones que representan ecuaciones con X:
 
-**Ejemplos:**
+Ecuación 1 (ejemplo: 2/43(14X - 3)).
+
+Ecuación 2 (ejemplo: (8 + 17X) : 11/6).
+
+La función devolverá el valor numérico de X (puede ser entero o flotante), obtenido al resolver la igualdad entre ambas ecuaciones.
+
+Este resultado podrá usarse como valor en asignaciones, expresiones o condiciones.
+**Ejemplo:**
 ```
-a := 4.1
-b := -1.5
-
-x = negativeCalculation(3.5, -2.0, a, b, -3.0)  
-// Cantidad de negativos: 3 (impar)  
-// x := (-2.0) * (-1.5) * (-3.0) = -9.0
-```
-```
-c := -1.7
-
-x = negativeCalculation(-4.0, 2.3, c, 5.6)  
-// Cantidad de negativos: 2 (par)  
-// x := (-4.0) + (-1.7) = -5.7  
+r := isolatingX( 2/43(14X - 3) = (8 + 17X) : 11/6 )
 ```
 
 ### sumFirstPrimes
