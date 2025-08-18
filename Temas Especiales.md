@@ -1,10 +1,22 @@
 ## Temas especiales
 
-### reorder
-La función especial reorder recibe tres parámetros:\
+### equalExpressions
+La función especial equalExpressions recibe tres parámetros:\
 *Lista de expresiones: La lista está entre corchetes y las expresiones separadas por comas.\
 *Valor booleano: Un valor que indica la dirección del reordenamiento. Si el valor es 1, la parte de la lista que debe reordenarse será la que está a la izquierda del pivote. Si el valor es 0, será la de la derecha.\
 *Entero pivote: Un valor entero que marca la posición en la lista desde la cual se inicia el reordenamiento. Este índice actúa como punto de referencia para dividir la lista en dos partes.
+
+La función recibirá como único parámetro una lista de expresiones matemáticas (variables, constantes, operaciones aritméticas, etc.).
+
+La función evaluará las expresiones y verificará si hay al menos dos que sean iguales en valor.
+
+El resultado de la función será un valor booleano:
+
+true si existen dos o más expresiones iguales.
+
+false si todas las expresiones son diferentes.
+
+El valor booleano resultante podrá ser utilizado directamente como condición en sentencias de control como IF y WHILE.
 
 La función reorder tomará la lista de expresiones y, dependiendo del valor del booleano, realizará un reordenamiento de las expresiones a partir de la posición indicada por el pivote. Si el valor booleano es 1, la parte de la lista a la izquierda del pivote debe ser reordenada de forma que la primera expresión ocupe la posición del pivote, la segunda la posición anterior, y así sucesivamente. Si el valor booleano es 0, se reordenará la parte de la lista a la derecha del pivote de forma similar.\
 Se debe validar que el valor del pivote no exceda la cantidad de expresiones.
