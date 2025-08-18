@@ -16,24 +16,13 @@ false si todas las expresiones son diferentes.
 El valor booleano resultante podrá ser utilizado directamente como condición en sentencias de control como IF y WHILE.
 
 
-**Ejemplos:**
+**Ejemplo:**
 ```
-reorder([x+3, 1+1, 9-x],1,2)  // la primer posición es cero
-
-//[9-x, 1+1, x+3]  luego de reordenar
+Integer a = 2;
+Integer b = 3;
+Boolean y;
+y = equalExpressions(a + b, 5, c * 2, 3 + 2, a + b)
 ```
-```
-reorder([r*j-2, x+3, 1+1, 9-x],0,2)  // la primer posición es cero
-
-//[r*j-2, x+3, 9-x, 1+1]  luego de reordenar
-```
-```
-reorder([r*j-2, x+3, 1+1, 9-x],0,3)  // no reordena porque no hay expresiones del lado izq del pivote
-```
-```
-reorder([r*j-2, x+3, 1+1, 9-x],1,0)  // no reordena porque no hay expresiones del lado derecho del pivote
-```
-Nota: la lista reordenada (en caso de haya sucedido) debe mostrarse/visualizarce de alguna manera al momento de hacer la GCI:
 
 ### sliceAndConcat
 La funcion especial sliceAndConcat recibe 5 parámetros:
