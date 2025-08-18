@@ -46,7 +46,7 @@ Envíe el enlace del tag generado del repositorio generado enviado a: lenguajesy
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc)
 
-Fecha de entrega: Semana del 21/04/2025
+Fecha de entrega: Semana del 08/09/2025
 
 
 ### Segunda Entrega:
@@ -76,7 +76,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-Fecha de entrega: Semana del 26/05/2025
+Fecha de entrega: Semana del 13/10/2025
 
 ### Entrega final
 
@@ -108,7 +108,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-Fecha de entrega: Semana del 23/06/2025
+Fecha de entrega: Semana del 17/11/2025
 
 
 ## Temas comunes
