@@ -24,7 +24,7 @@ y := equalExpressions(a + b, 5, c * 2, 3 + 2, a + b)
 ```
 
 ### charRepeat
-Se desea implementar una función semántica llamada charRepeat que determine si un carácter aparece en una cadena una cantidad de veces igual a la indicada por una constante o variable entera.
+Se desea implementar una función llamada charRepeat que determine si un carácter aparece en una cadena una cantidad de veces igual a la indicada por una constante o variable entera.
 
 La función recibirá tres parámetros:
 
@@ -47,7 +47,7 @@ y := charRepeat('a', "banana", 3)
 ```
 
 ### IsolatingX 
-Se desea implementar una función semántica llamada isolatingX que, dadas dos ecuaciones matemáticas que contienen una única variable X, resuelva el sistema obteniendo el valor de dicha variable al despejar X.
+Se desea implementar una función llamada isolatingX que, dadas dos ecuaciones matemáticas que contienen una única variable X, resuelva el sistema obteniendo el valor de dicha variable al despejar X.
 
 La función recibirá dos expresiones que representan ecuaciones con X:
 
@@ -63,12 +63,18 @@ Este resultado podrá usarse como valor en asignaciones, expresiones o condicion
 r := isolatingX( 2/43(14X - 3) = (8 + 17X) : 11/6 )
 ```
 
-### sumFirstPrimes
-Implementar una función llamada sumFirstPrimes que calcule la sumatoria de los N primeros números primos.
+### PalindromeCheck
+Se desea implementar una función llamada palindromeCheck que determine si una cadena de caracteres es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
 
-La función debe recibir un número entero N como parámetro y devolver la suma de los N primeros números primos.
+La función devolverá un valor booleano:
+
+true si la cadena es un palíndromo.
+
+false en caso contrario.
+
+El resultado podrá utilizarse como condición en estructuras IF y WHILE.
 
 **Ejemplo:**
 ```
-x = sumFirstPrimes(5)  // x = 2 + 3 + 5 + 7 + 11 = 28
+y := palindromeCheck("neuquen")
 ```
