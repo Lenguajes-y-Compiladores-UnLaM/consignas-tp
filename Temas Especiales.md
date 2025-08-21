@@ -8,10 +8,8 @@ La función recibirá como único parámetro una lista de expresiones matemátic
 La función evaluará las expresiones y verificará si hay al menos dos que sean iguales en valor.
 
 El resultado de la función será un valor booleano:
-
-true si existen dos o más expresiones iguales.
-
-false si todas las expresiones son diferentes.
+- `true` si existen dos o más expresiones iguales.
+- `false` si todas las expresiones son diferentes.
 
 El valor booleano resultante podrá ser utilizado directamente como condición en sentencias de control como IF y WHILE.
 
@@ -20,7 +18,8 @@ El valor booleano resultante podrá ser utilizado directamente como condición e
 Integer a := 2;
 Integer b := 3;
 Boolean y;
-y := equalExpressions(a + b, 5, c * 2, 3 + 2, a + b)
+y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)    // y := true por igualdad en 1er, 2do, 4to y 5to termino
+y := equalExpressions(0, -5, a + b)						          // y := false ya que todos los terminos son distintos
 ```
 
 ### charRepeat
