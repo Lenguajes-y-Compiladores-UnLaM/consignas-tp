@@ -18,8 +18,8 @@ El valor booleano resultante podrá ser utilizado directamente como condición e
 Integer a := 2;
 Integer b := 3;
 Boolean y;
-y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)    // y := true por igualdad en 1er, 2do, 4to y 5to termino
-y := equalExpressions(0, -5, a + b)						          // y := false ya que todos los terminos son distintos
+y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)  // y := true por igualdad en 1er, 2do, 4to y 5to termino
+y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son distintos
 ```
 
 ### charRepeat
