@@ -49,15 +49,22 @@ IF (isZero( s*7+1-h/2 )) THEN
    print("La expresion es igual a cero")
 ENDIF
 ```
-### 
+### triangleAreaMaximum
+Se desea implementar una función llamada triangleAreaMaximum que, dadas las coordenadas de dos triángulos en el plano cartesiano, determine cuál de los dos tiene mayor área y devuelva dicho valor numérico.
+
+La función recibirá dos triángulos, cada uno definido por las coordenadas de sus vértices en el plano cartesiano. Dichas coordenadas pueden ser Constantes o Variables, enteras o flotantes.
+
 **Ejemplo:**
 ```
-Integer a := 2;
-Integer b := 3;
-Boolean y;
-y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)  // y := true por igualdad en 1er, 2do, 4to y 5to termino
-y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son distintos
+Integer z := 2;
+Float x := 3.8;
+areaMax = triangleAreaMaximum( [0,x; 4.0,12; 2.5,3] ; [x,0; 6,0; z,2] )  //areaMax = 11.85
 ```
+Con los valores dados:
+
+Triángulo 1 → área = 11.85
+Triángulo 2 → área = 2.2
+Área máxima = 11.85
 ### 
 **Ejemplo:**
 ```
