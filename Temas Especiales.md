@@ -21,59 +21,49 @@ Boolean y;
 y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)  // y := true por igualdad en 1er, 2do, 4to y 5to termino
 y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son distintos
 ```
+### isZero
+Se desea implementar una función llamada isZero que, dada una expresión numérica, determine si su valor es igual a cero.
+La función recibirá como único parámetro una expresión numérica, compuesta por:
 
-### charRepeat
-Se desea implementar una función llamada charRepeat que determine si un carácter aparece en una cadena una cantidad de veces igual a la indicada por una constante o variable entera.
+Constantes y/o variables enteras o flotantes.
 
-La función recibirá tres parámetros:
-
-Un carácter (ejemplo: 'a').
-
-Una cadena (ejemplo: "banana").
-
-Una variable o constante entera que indica la cantidad de repeticiones esperadas (ejemplo: 3).
-
+Operadores aritméticas básicos: +, -, *, /.
 La función devolverá un valor booleano:
 
-true si el carácter aparece en la cadena exactamente la cantidad de veces indicada por el entero.
+true si la expresión se evalúa en 0.
 
 false en caso contrario.
 
-Este valor podrá ser utilizado directamente como condición en estructuras de control IF y WHILE.
+El valor podrá ser usado directamente en condiciones de estructura IF y WHILE.
+**Ejemplos:**
+```
+Integer contador := 10;
+WHILE isZero( contador - 10 ) DO
+   print("El contador vale 10")
+   contador := contador - 1
+ENDWHILE
+
+Integer s := 3;
+Integer h := 44;
+IF (isZero( s*7+1-h/2 )) THEN
+   print("La expresion es igual a cero")
+ENDIF
+```
+### 
 **Ejemplo:**
 ```
-y := charRepeat('a', "banana", 3)
+Integer a := 2;
+Integer b := 3;
+Boolean y;
+y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)  // y := true por igualdad en 1er, 2do, 4to y 5to termino
+y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son distintos
 ```
-
-### IsolatingX 
-Se desea implementar una función llamada isolatingX que, dadas dos ecuaciones matemáticas que contienen una única variable X, resuelva el sistema obteniendo el valor de dicha variable al despejar X.
-
-La función recibirá dos expresiones que representan ecuaciones con X:
-
-Ecuación 1 (ejemplo: 2/43(14X - 3)).
-
-Ecuación 2 (ejemplo: (8 + 17X) : 11/6).
-
-La función devolverá el valor numérico de X (puede ser entero o flotante), obtenido al resolver la igualdad entre ambas ecuaciones.
-
-Este resultado podrá usarse como valor en asignaciones, expresiones o condiciones.
+### 
 **Ejemplo:**
 ```
-r := isolatingX( 2/43(14X - 3) = (8 + 17X) : 11/6 )
-```
-
-### PalindromeCheck
-Se desea implementar una función llamada palindromeCheck que determine si una cadena de caracteres es un palíndromo, es decir, si se lee igual de izquierda a derecha que de derecha a izquierda.
-
-La función devolverá un valor booleano:
-
-true si la cadena es un palíndromo.
-
-false en caso contrario.
-
-El resultado podrá utilizarse como condición en estructuras IF y WHILE.
-
-**Ejemplo:**
-```
-y := palindromeCheck("neuquen")
+Integer a := 2;
+Integer b := 3;
+Boolean y;
+y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)  // y := true por igualdad en 1er, 2do, 4to y 5to termino
+y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son distintos
 ```
