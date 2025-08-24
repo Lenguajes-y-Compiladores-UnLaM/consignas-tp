@@ -52,7 +52,7 @@ ENDIF
 ### triangleAreaMaximum
 Se desea implementar una función llamada triangleAreaMaximum que, dadas las coordenadas de dos triángulos en el plano cartesiano, determine cuál de los dos tiene mayor área y devuelva dicho valor numérico.
 
-La función recibirá dos triángulos, cada uno definido por las coordenadas de sus vértices en el plano cartesiano. Dichas coordenadas pueden ser Constantes o Variables, enteras o flotantes.
+La función recibirá dos triángulos, cada uno definido por las coordenadas de sus vértices en el plano cartesiano. Dichas coordenadas pueden ser Constantes o Variables, enteras o flotantes. La función tendra el formato del ejemplo:
 
 **Ejemplo:**
 ```
@@ -62,15 +62,15 @@ areaMax = triangleAreaMaximum( [0,x; 4.0,12; 2.5,3] ; [x,0; 6,0; z,2] )  //areaM
 ```
 Con los valores dados:
 
-Triángulo 1 → área = 11.85
-Triángulo 2 → área = 2.2
+Triángulo 1 → área = 11.85; 
+Triángulo 2 → área = 2.2; 
 Área máxima = 11.85
-### 
+
+### convDate
+Se desea implementar una función llamada convDate que convierta una fecha representada por tres números enteros (día, mes y año) en un único valor numérico con el formato YYYYMMDD.
+
 **Ejemplo:**
 ```
-Integer a := 2;
-Integer b := 3;
-Boolean y;
-y := equalExpressions(a + b, 5, b * 2, 3 + 2, a + b)  // y := true por igualdad en 1er, 2do, 4to y 5to termino
-y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son distintos
+DateConverted dateC;
+dateC := convDate(21-08-2025)  //La fecha convertida (YYYYMMDD) será: 20250821
 ```
