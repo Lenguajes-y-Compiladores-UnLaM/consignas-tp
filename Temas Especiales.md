@@ -26,11 +26,12 @@ Se desea implementar una función llamada isZero que, dada una expresión numér
 
 La función recibirá como único parámetro una expresión numérica, compuesta por:
 - Constantes y/o variables enteras o flotantes.
-- Operadores aritméticas básicos: +, -, *, /. 
+- Operadores aritméticas básicos: +, -, *, /.
+  
 La función devolverá un valor booleano:
 
-- `true` si la expresión se evalúa en 0.
-- `false` en caso contrario.
+-- `true` si la expresión se evalúa en 0.
+-- `false` en caso contrario.
 
 El valor podrá ser usado directamente en condiciones de estructura IF y WHILE.
 
