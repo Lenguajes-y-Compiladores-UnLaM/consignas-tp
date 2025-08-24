@@ -25,8 +25,8 @@ y := equalExpressions(0, -5, a + b)  // y := false ya que todos los terminos son
 Se desea implementar una función llamada isZero que, dada una expresión numérica, determine si su valor es igual a cero.
 
 La función recibirá como único parámetro una expresión numérica, compuesta por:
-Constantes y/o variables enteras o flotantes.
-Operadores aritméticas básicos: +, -, *, /.
+- Constantes y/o variables enteras o flotantes.
+- Operadores aritméticas básicos: +, -, *, /. 
 La función devolverá un valor booleano:
 
 - `true` si la expresión se evalúa en 0.
