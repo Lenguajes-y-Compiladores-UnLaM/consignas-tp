@@ -10,7 +10,7 @@ Es necesario cumplir con las siguientes consideraciones para evaluar el TP:
    - El método de generación intermedia asignado.
    - El profesor que le ha sido asignado.
 
-Nota: Los grupos y sus respectivas asignaciones están listados en esta [planilla](https://docs.google.com/spreadsheets/d/1ilXLve4AHoH-h7xnfaKj4vS6M-5-lx4WvyC9MKwsQ9w/edit?gid=0#gid=0).
+Nota: Los grupos y sus respectivas asignaciones están listados en esta [planilla](https://docs.google.com/spreadsheets/d/1qhhXzx4YSOJlAFg1TRgZu6wkV7U9PNtTYPUfruiT8HM/edit?gid=0#gid=0).
 
 2. Cada grupo deberá designar un integrante para el envío de los correos durante todo el cuatrimestre.
 3. El TP deberá respetar la estructura provista en esta planilla y ser entregado a través de un enlace al repositorio de GitHub generado.
