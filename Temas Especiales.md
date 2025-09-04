@@ -37,17 +37,21 @@ El valor podrá ser usado directamente en condiciones de estructura IF y WHILE.
 
 **Ejemplos:**
 ```
-Integer contador := 10;
-WHILE isZero( contador - 10 ) DO
-   print("El contador vale 10")
-   contador := contador - 1
-ENDWHILE
-
-Integer s := 3;
-Integer h := 44;
-IF (isZero( s*7+1-h/2 )) THEN
-   print("La expresion es igual a cero")
-ENDIF
+init {
+    s,h,contador : Int
+}
+s := 3
+h := 44
+contador := 10
+while (isZero( contador - 10 ))
+{
+    print("El contador vale 10")
+    contador := contador - 1
+}
+if (isZero( s*7+1-h/2 ))
+{
+    print("La expresion es igual a cero")
+}
 ```
 ### triangleAreaMaximum
 Se desea implementar una función llamada triangleAreaMaximum que, dadas las coordenadas de dos triángulos en el plano cartesiano, determine cuál de los dos tiene mayor área y devuelva dicho valor numérico.
