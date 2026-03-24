@@ -142,5 +142,5 @@ Dejamos a continuación, las plantillas disponibles:
 
 [Plantilla para TP Integrador usando PLY - Python](https://github.com/Lenguajes-y-Compiladores-UnLaM/compilador-python)
 
-
+[Plantilla para TP Integrador usando Rflex y Rustemo - Rust](https://github.com/Lenguajes-y-Compiladores-UnLaM/compiler-rust)
 
