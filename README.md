@@ -1,8 +1,8 @@
-<p align="center">
-  <img src="images/unlam-logo.jpg" alt="Logo UNLaM" width="150">
-</p>
-
 # Trabajo Práctico Integrador de Lenguajes y Compiladores
+
+<p align="center">
+  <img src="images/unlam-logo.jpg" alt="Logo UNLaM" width="300">
+</p>
 
 ## Índice
 
