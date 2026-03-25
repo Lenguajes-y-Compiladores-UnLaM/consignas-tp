@@ -133,7 +133,6 @@ De igual forma, el esfuerzo de investigación de otras herramientas será tenido
 
 Dejamos a continuación, las plantillas disponibles:
 
-
 [Plantilla para TP Integrador usando JFlex y JCup - Java](https://github.com/Lenguajes-y-Compiladores-UnLaM/compiler-java)
 
 [Plantilla para TP Integrador usando JFlex y JCup - Kotlin](https://github.com/Lenguajes-y-Compiladores-UnLaM/compiler-kotlin)
@@ -148,12 +147,12 @@ Dejamos a continuación, las plantillas disponibles:
 
 | Herramienta | Lenguaje | Tipo de Parsing | Documentación |
 |------------|---------|----------------|--------------|
-| Rustemo | Rust | LR (LALR(1), GLR opcional) | https://github.com/igordejanovic/rustemo |
 | GNU Bison | C / C++ | LALR(1), GLR | https://www.gnu.org/software/bison/ |
 | Java CUP | Java | LALR(1) | http://www2.cs.tum.edu/projects/cup/ |
 | PLY (Python Lex-Yacc) | Python | LALR(1) | https://www.dabeaz.com/ply/ |
+| Rustemo | Rust | LR (LALR(1), GLR opcional) | https://github.com/igordejanovic/rustemo |
 
-🧠 Notas rápidas (importantes):
+🧠 Notas rápidas (importantes): 
 Todos son estilo Yacc → usan parsing bottom-up (LR)
 - LALR(1) es el común denominador
 - Diferencias reales:
