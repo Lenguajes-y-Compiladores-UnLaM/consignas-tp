@@ -53,8 +53,6 @@ La entrega 1.0.0 incluirá:
   - Dicho archivo debe ser único (no enviar diferentes escenarios de prueba en diferentes archivos).
   - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
 
-**Nota**: Los archivos requeridos ya son provistos/generados por la plantilla, lo que debe agregarse es la implementación de la funcionalidad en ellos.
-
 ✅ **Criterio de aprobación:**
 - Todos los casos de prueba presentes en la plantilla elegida deberán pasar.
 - La tabla de símbolos debe generarse respetando la estructura descrita en la consigna.
@@ -83,8 +81,6 @@ La entrega 2.0.0 incluirá:
     - Dicho archivo debe ser único (no enviar diferentes escenarios de prueba en diferentes archivos).
     - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
 
-Nota: Los archivos requeridos ya son provistos/generados por la plantilla, lo que debe agregarse es la implementación de la funcionalidad en ellos.
-
 ✅ **Criterio de aprobación:**
 - El código intermedio debe generarse correctamente.
 - Deben agregarse validaciones semánticas (Por ej: validación de tipos en asignación, variable ya declarada, etc.)
@@ -99,7 +95,7 @@ Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
 ### 3️⃣ Entrega final
 
-***Objetivo***: Realizar un compilador utilizando el archivo generado en la segunda entrega. 
+**Objetivo**: Realizar un compilador utilizando el archivo generado en la segunda entrega. 
 El programa ejecutable deberá procesar el archivo de entrada (test.txt), compilarlo y ejecutarlo.
 
 La entrega 3.0.0 incluirá:
@@ -114,8 +110,6 @@ La entrega 3.0.0 incluirá:
     - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
 - El archivo assembler que se llamará final.asm
 - El archivo por lotes run.bat que incluirá las sentencias necesarias para compilar con TASM y TLINK el archivo final.asm generado por el compilador
-
-Nota: Los archivos requeridos ya son provistos/generados por la plantilla, lo que debe agregarse es la implementación de la funcionalidad en ellos.
 
 ✅ **Criterio de aprobación:**
 - El código assembler debe generarse correctamente.
