@@ -144,3 +144,20 @@ Dejamos a continuación, las plantillas disponibles:
 
 [Plantilla para TP Integrador usando Rflex y Rustemo - Rust](https://github.com/Lenguajes-y-Compiladores-UnLaM/compiler-rust)
 
+## 📊 Comparación de herramientas de parsing
+
+| Herramienta | Lenguaje | Tipo de Parsing | Documentación |
+|------------|---------|----------------|--------------|
+| Rustemo | Rust | LR (LALR(1), GLR opcional) | https://github.com/igordejanovic/rustemo |
+| GNU Bison | C / C++ | LALR(1), GLR | https://www.gnu.org/software/bison/ |
+| Java CUP | Java | LALR(1) | http://www2.cs.tum.edu/projects/cup/ |
+| PLY (Python Lex-Yacc) | Python | LALR(1) | https://www.dabeaz.com/ply/ |
+
+🧠 Notas rápidas (importantes):
+Todos son estilo Yacc → usan parsing bottom-up (LR)
+- LALR(1) es el común denominador
+- Diferencias reales:
+   - Bison → el más completo y potente
+   - Java CUP → uso académico
+   - PLY → simple y práctico en Python
+   - Rustemo → moderno (soporta GLR)
