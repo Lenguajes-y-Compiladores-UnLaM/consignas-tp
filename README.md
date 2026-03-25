@@ -152,8 +152,7 @@ Dejamos a continuación, las plantillas disponibles:
 | PLY (Python Lex-Yacc) | Python | LALR(1) | https://www.dabeaz.com/ply/ |
 | Rustemo | Rust | LR (LALR(1), GLR opcional) | https://github.com/igordejanovic/rustemo |
 
-
-🧠 Notas rápidas (importantes):
+### 🧠 Notas rápidas (importantes)
 - Todos son estilo Yacc → usan parsing bottom-up (LR)
 - LALR(1) es el común denominador
 - Diferencias reales:
