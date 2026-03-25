@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="images/unlam-logo.jpg" alt="Logo UNLaM" width="150">
+</p>
+
 # Trabajo Práctico Integrador de Lenguajes y Compiladores
 
 ## Índice
 
 - [📋 Consideraciones Generales](#-consideraciones-generales)
-- [📧 Entregas](#entregas)
+- [📧 Entregas](#-entregas)
   - [1️⃣ Primera Entrega](#1️⃣-primera-entrega)
   - [2️⃣ Segunda Entrega](#2️⃣-segunda-entrega)
   - [3️⃣ Entrega Final](#3️⃣-entrega-final)
@@ -31,7 +35,7 @@ Es necesario cumplir con las siguientes consideraciones para evaluar el TP:
 5. Se fijan a continuación puntos de control con fechas y requerimientos determinados.
 
 
-## Entregas:
+## 📧 Entregas:
 
 ### 1️⃣ Primera Entrega:
 
