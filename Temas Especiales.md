@@ -3,12 +3,13 @@
 ### FOR
 La estructura de la sentencia FOR tendrá el siguiente formato 
                          
-   FOR Variable = Expresion  TO Expresion  [ Step  Cte ] 
+     FOR Variable = Expresion  TO Expresion  [ Step  Cte ] 
    
-   NEXT Variable 
+     NEXT Variable 
  
 La variable en la instrucción NEXT deberá ser la misma que la variable contadora de la cláusula 
 FOR. 
+
 Los [] indican que los pasos son opcionales. En caso que no se indique nada, por default asumirá 
 pasos de 1 en 1. 
 
@@ -30,17 +31,9 @@ La estructura de la sentencia será
      
 Lista de expresiones es una lista de expresiones separadas por comas. 
 
-### EQUMAX y EQUMIN 
-EQUMAX( expresión ; [lista de variables o ctes]) 
-EQUMIN( expresion ; [lista de variables o ctes]) 
- 
-La función será verdadera o falsa, si expresión es igual al máximo o mínimo de la lista de variables o 
-constantes. 
-La lista debe estar separada por comas y delimitada por corchetes. 
-Esta función deberá operar únicamente en condiciones. 
+### MOD/DIV
+MOD : módulo, tendrá el siguiente formato  expresión1 MOD expresión2. Deberá dar como resultado 
+el resto de la división entre expresion1 y expresion2.
 
-**Ejemplo:**
-```
-var1=120 
-IF EQUMAX(10+101; [100, 111, var1] ) ## será falsa 
-```
+DIV   : división entera, tendrá el siguiente formato expresion1 DIV expresion2. Deberá dar como 
+resultado la división entera entre expresion1 y expresion2.
