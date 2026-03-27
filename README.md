@@ -11,6 +11,7 @@
   - [1️⃣ Primera Entrega](#1️⃣-primera-entrega)
   - [2️⃣ Segunda Entrega](#2️⃣-segunda-entrega)
   - [3️⃣ Entrega Final](#3️⃣-entrega-final)
+  - [📅 Coloquio Grupal](#📅-coloquio-grupal)
 - [📚 Temas Comunes](#-temas-comunes)
 - [⭐ Temas Especiales](#-temas-especiales)
 - [🛠️ ¿Qué templates puedo usar para llevar a cabo el Trabajo Práctico?](#️-qué-templates-puedo-usar-para-llevar-a-cabo-el-trabajo-práctico)
@@ -63,7 +64,7 @@ Envíe el enlace del tag generado del repositorio generado enviado a: lenguajesy
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc)
 
-📅 **Fecha de entrega**: Semana del 08/09/2025
+📅 **Fecha de entrega**: Semana del 20/04/2026
 
 
 ### 2️⃣ Segunda Entrega:
@@ -91,7 +92,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-📅 **Fecha de entrega**: Semana del 13/10/2025
+📅 **Fecha de entrega**: Semana del 01/06/2026
 
 ### 3️⃣ Entrega final
 
@@ -121,8 +122,10 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-📅 **Fecha de entrega**: Semana del 17/11/2025
+📅 **Fecha de entrega**: Semana del 29/06/2026
 
+### 📅 Coloquio GRUPAL:
+Lunes 06/07/2026 y Martes 07/07/2026 - PRESENCIAL
 
 ## 📚 Temas comunes
 
