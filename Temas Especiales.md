@@ -4,7 +4,7 @@
 La estructura de la sentencia FOR tendrá el siguiente formato 
                          
      FOR Variable = Expresion  TO Expresion  [ Step  Cte ] 
-   
+         Sentencias
      NEXT Variable 
  
 La variable en la instrucción NEXT deberá ser la misma que la variable contadora de la cláusula 
