@@ -11,9 +11,9 @@
   - [1️⃣ Primera Entrega](#1️⃣-primera-entrega)
   - [2️⃣ Segunda Entrega](#2️⃣-segunda-entrega)
   - [3️⃣ Entrega Final](#3️⃣-entrega-final)
-  - [📅 Coloquio Grupal](#📅-coloquio-grupal)
-- [📚 Temas Comunes](#-temas-comunes)
-- [⭐ Temas Especiales](#-temas-especiales)
+  - [👥 Coloquio Grupal](#-coloquio-grupal)
+- [📚 Temas comunes](#-temas-comunes)
+- [⭐ Temas especiales](#-temas-especiales)
 - [🛠️ ¿Qué templates puedo usar para llevar a cabo el Trabajo Práctico?](#️-qué-templates-puedo-usar-para-llevar-a-cabo-el-trabajo-práctico)
   - [📊 Comparación de herramientas de parsing](#-comparación-de-herramientas-de-parsing)
   - [🧠 Notas rápidas (importantes)](#-notas-rápidas-importantes)
@@ -94,7 +94,7 @@ Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
 📅 **Fecha de entrega**: Semana del 01/06/2026
 
-### 3️⃣ Entrega final
+### 3️⃣ Entrega Final
 
 **Objetivo**: Realizar un compilador utilizando el archivo generado en la segunda entrega. 
 El programa ejecutable deberá procesar el archivo de entrada (test.txt), compilarlo y ejecutarlo.
@@ -124,8 +124,9 @@ Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
 📅 **Fecha de entrega**: Semana del 29/06/2026
 
-### 📅 Coloquio GRUPAL:
-Lunes 06/07/2026 y Martes 07/07/2026 - PRESENCIAL
+### 👥 Coloquio Grupal
+
+Lunes 06/07/2026 y Martes 07/07/2026 de forma presencial.
 
 ## 📚 Temas comunes
 
