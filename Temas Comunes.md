@@ -5,10 +5,6 @@ Todas las variables deberán ser declaradas dentro de un bloque especial para es
 
 Pueden existir varias líneas de declaración, incluso utilizando más de una línea para el mismo tipo.
 
-IMPORTANTE: Las variables no guardan su valor en tabla de símbolos.
-
-Las asignaciones deben ser permitidas, solo en los casos en los que los tipos son compatibles, caso contrario deberá desplegarse un error.
-
 ### Tipos de datos
 
 | Tipo | Tamaño | Rango / Detalle |
@@ -16,6 +12,10 @@ Las asignaciones deben ser permitidas, solo en los casos en los que los tipos so
 | Float | 32 bits | Separador decimal: punto “.”. Rango aprox.: -3.4028235 × 10³⁸ a 3.4028235 × 10³⁸ |
 | Int | 16 bits | Mínimo: -32.768  Máximo: 32.767 |
 | String | — | Constantes de hasta 50 caracteres alfanuméricos, limitadas por comillas (“ “), de la forma “XXXX” |
+
+### Asignaciones
+
+Las asignaciones deben ser permitidas, solo en los casos en los que los tipos son compatibles, caso contrario deberá desplegarse un error.
 
 ### Operadores
 
