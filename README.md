@@ -20,39 +20,61 @@
 
 ## 📋 Consideraciones Generales
 
-Es necesario cumplir con las siguientes consideraciones para evaluar el TP:
+### Lineamientos para la formación de grupos:
+* Hasta un máximo de 5 integrantes, sin excepciones.
+* Los integrantes deben pertenecer a una misma comisión.
 
+### Se va a evaluar:
 1. Cada grupo deberá desarrollar el compilador teniendo en cuenta:
    - Todos los temas comunes.
    - Los temas especiales asignados.
    - El método de generación intermedia asignado.
-   - El profesor que le ha sido asignado.
+   - Generación de código assembler y compilacion final.
+   - Aprobación TP y Coloquio
+2. El TP deberá respetar la estructura provista segun defina un determinado lenguaje y ser entregado a través de un enlace al repositorio de GitHub generado.
+4. La cátedra creará un repositorio privado por cada grupo, permitiendoles acceder al mismo con el rol de administrador para que puedan desarrollar, subir nuevos archivos o hacer modificaciones.
 
-**Nota**: Los grupos y sus respectivas asignaciones están listados en esta [planilla](https://docs.google.com/spreadsheets/d/1qhhXzx4YSOJlAFg1TRgZu6wkV7U9PNtTYPUfruiT8HM/edit?gid=0#gid=0).
+**Nota**: Deberán anotarse en [hoja de grupos de la planilla de grupos 2C 2026](https://docs.google.com/spreadsheets/d/14Mvx8ekXms5qHZvtEQEENNJSpEQ_4V9X2OVyU8zDltg/edit?gid=0#gid=0) con un mail válido de github para cada integrante.
 
-2. Cada grupo deberá designar un integrante para el envío de los correos durante todo el cuatrimestre.
-3. El TP deberá respetar la estructura provista en esta planilla y ser entregado a través de un enlace al repositorio de GitHub generado.
-4. Para generar su propio repositorio GitHub seleccione la opción "Use this template".
-5. Se fijan a continuación puntos de control con fechas y requerimientos determinados.
+### Asignación profesor, lenguaje, temas especiales y notación intermedia
+
+En cada repositorio se creara un archivo YAML llamado `configuracion_lyc.yml` donde tendrán la siguiente información:
+```yaml
+grupo: N
+lenguaje: LX_nombre
+integrantes:
+  - Ap_Nom
+  - Ap_Nom
+  - Ap_Nom
+temas_especiales:
+  - TEX
+  - TEX
+notacion: NOTX
+profesor: PROFX
+```
+
+### Corrección
+
 
 
 ## 📧 Entregas:
 
-### 1️⃣ Primera Entrega:
+### 1️⃣ Primera Entrega (auto-corrección):
 
 **Objetivo**: Realizar un analizador léxico y sintáctico con las herramientas provistas. 
+
 El programa ejecutable deberá mostrar por pantalla las reglas sintácticas que va analizando el parser en base a un archivo de entrada (test.txt). 
+
 Las impresiones deben ser claras. Las reglas que no realizan ninguna acción no deben generar salida.
 
 La entrega 1.0.0 incluirá:
-
 - El archivo lexer con la definición de todos los componentes léxicos.
 - El archivo parser con la definición de la gramática del lenguaje y la lógica de generación de la tabla de símbolos.
 - El archivo symbol-table.txt deberá contener la lista de variables y constantes con sus respectivos atributos.
 - El archivo ejecutable lyc-compiler-1.0.0 (binario).
 - El archivo de pruebas test.txt que contendrá ejemplos de todos los temas comunes y especiales (selecciones, ciclos anidados, temas especiales, verificación de cotas para las constantes, chequeo de longitud de los nombres de los identificadores, comentarios, etc).
-  - Dicho archivo debe ser único (no enviar diferentes escenarios de prueba en diferentes archivos).
-  - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
+- Dicho archivo debe ser único, general y abarcativo (no enviar diferentes escenarios de prueba en diferentes archivos).
+- Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
 
 ✅ **Criterio de aprobación:**
 - Todos los casos de prueba presentes en la plantilla elegida deberán pasar.
