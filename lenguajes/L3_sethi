@@ -1,0 +1,93 @@
+(: Ejemplo general: recorre cada sentencia del lenguaje de forma practica :)
+
+(: Declaracion de variables: el bloque no lleva tipo de dato, cada variable se
+   declara asignandole una constante y de ella se deduce su tipo :)
+DEF
+    a <- 10.5              (: constante con punto decimal  ->  Float :)
+    b <- 3.2               (: constante con punto decimal  ->  Float :)
+    resultado <- 0.0       (: constante con punto decimal  ->  Float :)
+    x <- 1                 (: constante sin punto decimal  ->  Int :)
+    y <- 5                 (: constante sin punto decimal  ->  Int :)
+    contador <- 0          (: constante sin punto decimal  ->  Int :)
+    limite <- 3            (: constante sin punto decimal  ->  Int :)
+    mensaje <- "Inicio"    (: constante entre comillas     ->  String :)
+FED
+
+(: Asignaciones: se usa <- y el valor debe ser compatible con el tipo deducido
+   en la declaracion, caso contrario es error :)
+a <- 20.75
+x <- 2
+mensaje <- "Inicio del programa"
+
+(: Entrada y salida: write muestra un texto o variable, read carga un valor por teclado :)
+write(mensaje)
+write("esto es un ejemplo")
+read(x)
+
+(: Operaciones aritmeticas: +, -, *, / entre variables o constantes :)
+resultado <- a + b
+resultado <- resultado - 1
+resultado <- resultado * 2
+resultado <- resultado / y
+resultado <- a + b - x * y / 2
+
+(: Condicion simple: comparadores ==, <, >, <=, >=, != :)
+IF (x > y) ->
+    write("x es mayor que y")
+FI
+
+(: If / else: rama alternativa que se ejecuta cuando la condicion es falsa :)
+IF (resultado >= 10) ->
+    write("resultado alto")
+ELSE ->
+    write("resultado bajo")
+FI
+
+(: Condicion multiple con AND: ambas condiciones simples deben cumplirse :)
+IF (x > 0 AND y > 0) ->
+    write("ambos valores son positivos")
+FI
+
+(: Condicion multiple con OR: alcanza con que se cumpla una de las dos :)
+IF (x > 100 OR y > 100) ->
+    write("alguno de los dos supera 100")
+FI
+
+(: Condicion con NOT: invierte el resultado de una condicion simple :)
+IF (NOT x > y) ->
+    write("x no es mayor que y")
+FI
+
+(: While: repite el bloque mientras la condicion sea verdadera :)
+DO (contador < limite) ->
+    write(contador)
+    contador <- contador + 1
+OD
+
+(: Anidamiento: if dentro de otro if, para distinguir subcasos de una misma condicion :)
+IF (x > 0) ->
+    IF (x > 10) ->
+        write("x es positivo y mayor a 10")
+    ELSE ->
+        write("x es positivo pero menor o igual a 10")
+    FI
+FI
+
+(: Anidamiento: while dentro de un if, se ejecuta solo si la condicion inicial se cumple :)
+IF (contador < limite) ->
+    DO (contador < limite) ->
+        write("completando hasta el limite")
+        contador <- contador + 1
+    OD
+FI
+
+(: Anidamiento: if dentro de un while, evalua una condicion distinta en cada iteracion :)
+contador <- 0
+DO (contador < limite) ->
+    IF (contador == 0) ->
+        write("primera iteracion")
+    ELSE ->
+        write("iteracion siguiente")
+    FI
+    contador <- contador + 1
+OD

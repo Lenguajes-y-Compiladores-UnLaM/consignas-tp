@@ -1,0 +1,114 @@
+<* Ejemplo general: recorre cada sentencia del lenguaje de forma practica *>
+
+<* Programa principal: todo el codigo se encierra dentro de void main () { } *>
+void main ()
+{
+
+    <* Declaracion de variables: el bloque se delimita con %{ %} y el tipo antecede a la lista *>
+    %{
+        Float : a, b, resultado ;
+        Int : x, y, contador, limite ;
+        String : mensaje ;
+    %}
+
+    <* Asignaciones: se usa =: y el valor debe ser compatible con el tipo declarado *>
+    a =: 10.5 ;
+    b =: 3.2 ;
+    x =: 1 ;
+    y =: 5 ;
+    contador =: 0 ;
+    limite =: 3 ;
+    mensaje =: "Inicio del programa" ;
+
+    <* Entrada y salida: write muestra un texto o variable, read carga un valor por teclado *>
+    write(mensaje) ;
+    write("esto es un ejemplo") ;
+    read(x) ;
+
+    <* Operaciones aritmeticas: +, -, *, / entre variables o constantes *>
+    resultado =: a + b ;
+    resultado =: resultado - 1 ;
+    resultado =: resultado * 2 ;
+    resultado =: resultado / y ;
+    resultado =: a + b - x * y / 2 ;
+
+    <* Condicion simple: comparadores ==, <, >, <=, >=, != *>
+    IF (x > y) THEN
+    BEGIN
+        write("x es mayor que y") ;
+    END
+
+    <* If / else: rama alternativa que se ejecuta cuando la condicion es falsa *>
+    IF (resultado >= 10) THEN
+    BEGIN
+        write("resultado alto") ;
+    END
+    ELSE
+    BEGIN
+        write("resultado bajo") ;
+    END
+
+    <* Condicion multiple con AND: ambas condiciones simples deben cumplirse *>
+    IF (x > 0 AND y > 0) THEN
+    BEGIN
+        write("ambos valores son positivos") ;
+    END
+
+    <* Condicion multiple con OR: alcanza con que se cumpla una de las dos *>
+    IF (x > 100 OR y > 100) THEN
+    BEGIN
+        write("alguno de los dos supera 100") ;
+    END
+
+    <* Condicion con NOT: invierte el resultado de una condicion simple *>
+    IF (NOT x > y) THEN
+    BEGIN
+        write("x no es mayor que y") ;
+    END
+
+    <* While: repite el bloque mientras la condicion sea verdadera *>
+    WHILE (contador < limite) DO
+    BEGIN
+        write(contador) ;
+        contador =: contador + 1 ;
+    END
+
+    <* Anidamiento: if dentro de otro if, para distinguir subcasos de una misma condicion *>
+    IF (x > 0) THEN
+    BEGIN
+        IF (x > 10) THEN
+        BEGIN
+            write("x es positivo y mayor a 10") ;
+        END
+        ELSE
+        BEGIN
+            write("x es positivo pero menor o igual a 10") ;
+        END
+    END
+
+    <* Anidamiento: while dentro de un if, se ejecuta solo si la condicion inicial se cumple *>
+    IF (contador < limite) THEN
+    BEGIN
+        WHILE (contador < limite) DO
+        BEGIN
+            write("completando hasta el limite") ;
+            contador =: contador + 1 ;
+        END
+    END
+
+    <* Anidamiento: if dentro de un while, evalua una condicion distinta en cada iteracion *>
+    contador =: 0 ;
+    WHILE (contador < limite) DO
+    BEGIN
+        IF (contador == 0) THEN
+        BEGIN
+            write("primera iteracion") ;
+        END
+        ELSE
+        BEGIN
+            write("iteracion siguiente") ;
+        END
+        contador =: contador + 1 ;
+    END
+
+}

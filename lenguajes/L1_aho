@@ -1,0 +1,108 @@
+#+ Ejemplo general: recorre cada sentencia del lenguaje de forma practica +#
+
+#+ Declaracion de variables: init agrupa las variables por tipo +#
+init {
+    a, b, resultado : Float
+    x, y, contador, limite : Int
+    mensaje : String
+}
+
+#+ Asignaciones: se usa := y el valor debe ser compatible con el tipo declarado +#
+a := 10.5
+b := 3.2
+x := 1
+y := 5
+contador := 0
+limite := 3
+mensaje := "Inicio del programa"
+
+#+ Entrada y salida: write muestra un texto o variable, read carga un valor por teclado +#
+write(mensaje)
+write("esto es un ejemplo")
+read(x)
+
+#+ Operaciones aritmeticas: +, -, *, / entre variables o constantes +#
+resultado := a + b
+resultado := resultado - 1
+resultado := resultado * 2
+resultado := resultado / y
+resultado := a + b - x * y / 2
+
+#+ Condicion simple: comparadores ==, <, >, <=, >=, != +#
+if (x > y)
+{
+    write("x es mayor que y")
+}
+
+#+ If / else: rama alternativa que se ejecuta cuando la condicion es falsa +#
+if (resultado >= 10)
+{
+    write("resultado alto")
+}
+else
+{
+    write("resultado bajo")
+}
+
+#+ Condicion multiple con AND: ambas condiciones simples deben cumplirse +#
+if (x > 0 AND y > 0)
+{
+    write("ambos valores son positivos")
+}
+
+#+ Condicion multiple con OR: alcanza con que se cumpla una de las dos +#
+if (x > 100 OR y > 100)
+{
+    write("alguno de los dos supera 100")
+}
+
+#+ Condicion con NOT: invierte el resultado de una condicion simple +#
+if (NOT x > y)
+{
+    write("x no es mayor que y")
+}
+
+#+ While: repite el bloque mientras la condicion sea verdadera +#
+while (contador < limite)
+{
+    write(contador)
+    contador := contador + 1
+}
+
+#+ Anidamiento: if dentro de otro if, para distinguir subcasos de una misma condicion +#
+if (x > 0)
+{
+    if (x > 10)
+    {
+        write("x es positivo y mayor a 10")
+    }
+    else
+    {
+        write("x es positivo pero menor o igual a 10")
+    }
+}
+
+#+ Anidamiento: while dentro de un if, se ejecuta solo si la condicion inicial se cumple +#
+if (contador < limite)
+{
+    while (contador < limite)
+    {
+        write("completando hasta el limite")
+        contador := contador + 1
+    }
+}
+
+#+ Anidamiento: if dentro de un while, evalua una condicion distinta en cada iteracion +#
+contador := 0
+while (contador < limite)
+{
+    if (contador == 0)
+    {
+        write("primera iteracion")
+    }
+    else
+    {
+        write("iteracion siguiente")
+    }
+    contador := contador + 1
+}

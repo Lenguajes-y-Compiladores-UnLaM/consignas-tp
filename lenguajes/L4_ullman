@@ -1,0 +1,93 @@
+/% Ejemplo general: recorre cada sentencia del lenguaje de forma practica %/
+
+/% Declaracion de variables: el bloque se delimita con << >> y el tipo se indica
+   al final de la lista con la palabra reservada AS.
+   Toda variable lleva el prefijo $ para distinguirla de las palabras reservadas %/
+<<
+    $a, $b, $resultado AS Float
+    $x, $y, $contador, $limite AS Int
+    $mensaje AS String
+>>
+
+/% Asignaciones: la expresion va a la izquierda y la variable destino a la derecha,
+   unidas por => (el valor "fluye" hacia la variable) %/
+10.5 => $a
+3.2 => $b
+1 => $x
+5 => $y
+0 => $contador
+3 => $limite
+"Inicio del programa" => $mensaje
+
+/% Entrada y salida: write muestra un texto o variable, read carga un valor por teclado %/
+write($mensaje)
+write("esto es un ejemplo")
+read($x)
+
+/% Operaciones aritmeticas: +, -, *, / entre variables o constantes %/
+$a + $b => $resultado
+$resultado - 1 => $resultado
+$resultado * 2 => $resultado
+$resultado / $y => $resultado
+$a + $b - $x * $y / 2 => $resultado
+
+/% Condicion simple: comparadores ==, <, >, <=, >=, != %/
+WHEN ($x > $y) :
+    write("x es mayor que y")
+ENDWHEN
+
+/% If / else: rama alternativa que se ejecuta cuando la condicion es falsa %/
+WHEN ($resultado >= 10) :
+    write("resultado alto")
+OTHERWISE :
+    write("resultado bajo")
+ENDWHEN
+
+/% Condicion multiple con AND: ambas condiciones simples deben cumplirse %/
+WHEN ($x > 0 AND $y > 0) :
+    write("ambos valores son positivos")
+ENDWHEN
+
+/% Condicion multiple con OR: alcanza con que se cumpla una de las dos %/
+WHEN ($x > 100 OR $y > 100) :
+    write("alguno de los dos supera 100")
+ENDWHEN
+
+/% Condicion con NOT: invierte el resultado de una condicion simple %/
+WHEN (NOT $x > $y) :
+    write("x no es mayor que y")
+ENDWHEN
+
+/% While: repite el bloque mientras la condicion sea verdadera %/
+REPEAT ($contador < $limite) :
+    write($contador)
+    $contador + 1 => $contador
+ENDREPEAT
+
+/% Anidamiento: if dentro de otro if, para distinguir subcasos de una misma condicion %/
+WHEN ($x > 0) :
+    WHEN ($x > 10) :
+        write("x es positivo y mayor a 10")
+    OTHERWISE :
+        write("x es positivo pero menor o igual a 10")
+    ENDWHEN
+ENDWHEN
+
+/% Anidamiento: while dentro de un if, se ejecuta solo si la condicion inicial se cumple %/
+WHEN ($contador < $limite) :
+    REPEAT ($contador < $limite) :
+        write("completando hasta el limite")
+        $contador + 1 => $contador
+    ENDREPEAT
+ENDWHEN
+
+/% Anidamiento: if dentro de un while, evalua una condicion distinta en cada iteracion %/
+0 => $contador
+REPEAT ($contador < $limite) :
+    WHEN ($contador == 0) :
+        write("primera iteracion")
+    OTHERWISE :
+        write("iteracion siguiente")
+    ENDWHEN
+    $contador + 1 => $contador
+ENDREPEAT

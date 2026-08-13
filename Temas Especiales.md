@@ -1,3 +1,0 @@
-## Temas especiales
-
-### TBD
