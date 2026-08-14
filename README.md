@@ -27,13 +27,14 @@
 * Hasta un máximo de 5 integrantes, sin excepciones.
 * Los integrantes deben pertenecer a una misma comisión.
 
-### Se va a evaluar:
+### Importante
+
 1. Cada grupo deberá desarrollar el compilador teniendo en cuenta:
    - Todos los temas comunes.
    - Los temas especiales asignados.
    - El método de generación intermedia asignado.
    - Generación de código assembler y compilacion final.
-   - Aprobación TP y Coloquio
+   - Aprobación TP y Coloquio.
 2. El TP deberá respetar la estructura provista segun defina un determinado lenguaje y ser entregado a través de un enlace al repositorio de GitHub generado.
 4. La cátedra creará un repositorio privado por cada grupo, permitiendoles acceder al mismo con el rol de administrador para que puedan desarrollar, subir nuevos archivos o hacer modificaciones.
 
