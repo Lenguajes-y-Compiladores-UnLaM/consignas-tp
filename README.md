@@ -34,8 +34,8 @@
    - Los temas especiales asignados.
    - El método de generación intermedia asignado.
    - Generación de código assembler y compilacion final.
-   - Aprobación TP y Coloquio.
-2. El TP deberá respetar la estructura provista segun defina un determinado lenguaje y ser entregado a través de un enlace al repositorio de GitHub generado.
+   - Aprobación TP y coloquio.
+2. El TP deberá respetar la estructura provista segun defina un determinado lenguaje.
 4. La cátedra creará un repositorio privado por cada grupo, permitiendoles acceder al mismo con el rol de administrador para que puedan desarrollar, subir nuevos archivos o hacer modificaciones.
 
 **Nota**: Deberán anotarse en [hoja de grupos de la planilla de grupos 2C 2026](https://docs.google.com/spreadsheets/d/14Mvx8ekXms5qHZvtEQEENNJSpEQ_4V9X2OVyU8zDltg/edit?gid=0#gid=0) con un mail válido de github para cada integrante.
