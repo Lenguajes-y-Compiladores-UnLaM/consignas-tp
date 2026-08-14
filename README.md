@@ -122,7 +122,15 @@ Los temas comunes se describen [aquí](Temas%20Comunes.md)
 
 ## ⭐ Temas especiales
 
-Los temas especiales se encontrarán en cada repositorio privado dentro de la carpeta `./temas`
+En la rama `main` se añadirá una carpeta llamada temas con dos archivos markdown.
+
+```
+proyecto/
+├── ...
+└── temas/
+    ├── TE1_nombre.md
+    └── TE2_nombre.md
+```
 
 ## 🛠️ ¿Qué templates puedo usar para llevar a cabo el Trabajo Práctico?
 
