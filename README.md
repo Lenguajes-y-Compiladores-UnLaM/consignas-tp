@@ -8,7 +8,6 @@
 
 - [📋 Consideraciones Generales](#-consideraciones-generales)
   - [Lineamientos para la formación de grupos](#lineamientos-para-la-formación-de-grupos)
-  - [Se va a evaluar](#se-va-a-evaluar)
   - [Asignación profesor, lenguaje, temas especiales y notación intermedia](#asignación-profesor-lenguaje-temas-especiales-y-notación-intermedia)
 - [📧 Entregas](#-entregas)
   - [1️⃣ Primera Entrega - AL y AS (auto-corrección)](#1️⃣-primera-entrega---al-y-as-auto-corrección)
