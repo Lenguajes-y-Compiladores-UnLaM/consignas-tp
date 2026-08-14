@@ -18,7 +18,7 @@ Podrán marcar con una ❌ o ✔️ en la columna Estado y agregando las observa
 |---|---|---|
 | Guardar identificadores en tabla de símbolos | | |
 | Guardar constantes en tabla de símbolos | | |
-| Tipo de identificadores/constantes en tabla de símbolos | | |
+| Tipo de constantes en tabla de símbolos | | |
 | Longitud de constantes en TS | | |
 | Se omiten duplicados en TS | | |
 

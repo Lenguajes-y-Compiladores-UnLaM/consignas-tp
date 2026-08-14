@@ -7,10 +7,13 @@
 ## Índice
 
 - [📋 Consideraciones Generales](#-consideraciones-generales)
+  - [Lineamientos para la formación de grupos](#lineamientos-para-la-formación-de-grupos)
+  - [Se va a evaluar](#se-va-a-evaluar)
+  - [Asignación profesor, lenguaje, temas especiales y notación intermedia](#asignación-profesor-lenguaje-temas-especiales-y-notación-intermedia)
 - [📧 Entregas](#-entregas)
-  - [1️⃣ Primera Entrega](#1️⃣-primera-entrega)
-  - [2️⃣ Segunda Entrega](#2️⃣-segunda-entrega)
-  - [3️⃣ Entrega Final](#3️⃣-entrega-final)
+  - [1️⃣ Primera Entrega - AL y AS (auto-corrección)](#1️⃣-primera-entrega---al-y-as-auto-corrección)
+  - [2️⃣ Segunda Entrega - GCI](#2️⃣-segunda-entrega---gci)
+  - [3️⃣ Entrega Final - Assembler y binario](#3️⃣-entrega-final---assembler-y-binario)
   - [👥 Coloquio Grupal](#-coloquio-grupal)
 - [📚 Temas comunes](#-temas-comunes)
 - [⭐ Temas especiales](#-temas-especiales)
@@ -53,13 +56,9 @@ notacion: NOTX
 profesor: PROFX
 ```
 
-### Corrección
-
-
-
 ## 📧 Entregas:
 
-### 1️⃣ Primera Entrega (auto-corrección):
+### 1️⃣ Primera Entrega - AL y AS (auto-corrección):
 
 **Objetivo**: Realizar un analizador léxico y sintáctico con las herramientas provistas. 
 
@@ -70,85 +69,62 @@ Las impresiones deben ser claras. Las reglas que no realizan ninguna acción no 
 La entrega 1.0.0 incluirá:
 - El archivo lexer con la definición de todos los componentes léxicos.
 - El archivo parser con la definición de la gramática del lenguaje y la lógica de generación de la tabla de símbolos.
-- El archivo symbol-table.txt deberá contener la lista de variables y constantes con sus respectivos atributos.
-- El archivo ejecutable lyc-compiler-1.0.0 (binario).
-- El archivo de pruebas test.txt que contendrá ejemplos de todos los temas comunes y especiales (selecciones, ciclos anidados, temas especiales, verificación de cotas para las constantes, chequeo de longitud de los nombres de los identificadores, comentarios, etc).
+- El archivo `symbol-table.txt` deberá contener la lista de variables y constantes con sus respectivos atributos. El archivo `symbol-table.txt` debe ser autogenerado cada vez que se ejecute el compilador.
+- El archivo de pruebas `test.txt` que contendrá ejemplos de todos los temas comunes y especiales (selecciones, ciclos anidados, temas especiales, verificación de cotas para las constantes, chequeo de longitud de los nombres de los identificadores, comentarios, etc).
 - Dicho archivo debe ser único, general y abarcativo (no enviar diferentes escenarios de prueba en diferentes archivos).
 - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
+- Cree el tag 1.0.0 en su repositorio dónde se generará un zip con los archivos necesarios.
 
 ✅ **Criterio de aprobación:**
-- Todos los casos de prueba presentes en la plantilla elegida deberán pasar.
+- Todos los casos de prueba presentes en el archivo `correccion\E1_autocorreccion.md` deben estar contemplados.
 - La tabla de símbolos debe generarse respetando la estructura descrita en la consigna.
 
-Cree el tag 1.0.0 en su repositorio.
+En la raiz de su repositorio encontrará un archivo dentro de la carpeta correccion `correccion\E1_autocorreccion.md` dónde el mismo equipo podrá corroborar si la entrega está aprobada o no.
 
-Envíe el enlace del tag generado del repositorio generado enviado a: lenguajesycompiladores@gmail.com
-
-Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc)
-
-📅 **Fecha de entrega**: Semana del 20/04/2026
+📅 **Fecha de entrega**: auto-corrección por el alumno. Recomendamos que esta entrega lo tengan realizada una semana antes del primer parcial para evacuar todas las dudas que puedan surgir de cara al mismo. De necesitar una validación docente se puede notificar enviando un mail a lenguajesycompiladores@gmail.com asunto NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc).
 
 
-### 2️⃣ Segunda Entrega:
+### 2️⃣ Segunda Entrega - GCI:
 
-**Objetivo:** Realizar un generador de código intermedio utilizando el archivo parser generado en la primera entrega. El programa ejecutable deberá procesar el archivo de entrada (prueba.txt) y devolver el código intermedio del mismo junto con la tabla de símbolos.
+**Objetivo:** Realizar un generador de código intermedio utilizando el archivo parser generado en la primera entrega. El programa ejecutable deberá procesar el archivo de entrada (test.txt) y devolver el código intermedio del mismo junto con la tabla de símbolos.
 
 La entrega 2.0.0 incluirá:
-
-- El archivo lexer con la definición de todos los componentes léxicos.
-- El archivo parser con la definición de la gramática del lenguaje y la lógica de generación de la tabla de símbolos.
-- El archivo symbol-table.txt deberá contener la lista de variables y constantes con sus respectivos atributos.
-- El archivo intermediate-code.txt y que contiene el código intermedio generado.
-- El archivo ejecutable lyc-compiler-2.0.0 (binario).
-- El archivo de pruebas test.txt que contendrá ejemplos de todos los temas comunes y especiales (selecciones, ciclos anidados, temas especiales, verificación de cotas para las constantes, chequeo de longitud de los nombres de los identificadores, comentarios, etc).
-    - Dicho archivo debe ser único (no enviar diferentes escenarios de prueba en diferentes archivos).
-    - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
+- Todo lo realizado en la primer entrega.
+- Actualización del archivo `symbol-table.txt` con sus atributos.
+- El archivo `intermediate-code.txt` que contiene el código intermedio generado. El archivo intermediate-code.txt debe ser autogenerado cada vez que se ejecute el compilador.
+- Se puede usar todas las primitivas y estructuras que se crean necesarias para el desarrollo del código intermedio junto con las validaciones semánticas correspondientes.
+- Cree el tag 2.0.0 en su repositorio dónde se generará un zip con los archivos necesarios.
 
 ✅ **Criterio de aprobación:**
 - El código intermedio debe generarse correctamente.
-- Deben agregarse validaciones semánticas (Por ej: validación de tipos en asignación, variable ya declarada, etc.)
-
-Cree el tag 2.0.0 en su repositorio.
-
-Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
-
-Asunto: NombredelDocente_GrupoXX    (Ej Daniel_Grupo03, Eleazar_Grupo02)
-
-📅 **Fecha de entrega**: Semana del 01/06/2026
-
-### 3️⃣ Entrega Final
-
-**Objetivo**: Realizar un compilador utilizando el archivo generado en la segunda entrega. 
-El programa ejecutable deberá procesar el archivo de entrada (test.txt), compilarlo y ejecutarlo.
-
-La entrega 3.0.0 incluirá:
-
-- El archivo lexer con la definición de todos los componentes léxicos.
-- El archivo parser con la definición de la gramática del lenguaje y la lógica de generación de la tabla de símbolos.
-- El archivo symbol-table.txt deberá contener la lista de variables y constantes con sus respectivos atributos.
-- El archivo intermediate-code.txt y que contiene el código intermedio generado.
-- El archivo ejecutable lyc-compiler-3.0.0 (binario).
-- El archivo de pruebas test.txt que contendrá ejemplos de todos los temas comunes y especiales (selecciones, ciclos anidados, temas especiales, verificación de cotas para las constantes, chequeo de longitud de los nombres de los identificadores, comentarios, etc).
-    - Dicho archivo debe ser único (no enviar diferentes escenarios de prueba en diferentes archivos).
-    - Las líneas de código que ejemplifican casos de error en tiempo de compilación deberán presentarse en el documento de manera comentadas y acompañadas de un mensaje descriptivo.
-- El archivo assembler que se llamará final.asm
-- El archivo por lotes run.bat que incluirá las sentencias necesarias para compilar con TASM y TLINK el archivo final.asm generado por el compilador
-
-✅ **Criterio de aprobación:**
-- El código assembler debe generarse correctamente.
-- El programa de prueba debe ejecutarse sin problemas en DOSBox.
-
-Cree el tag 3.0.0 en su repositorio.
+- Todos los casos de prueba presentes en el archivo `correccion\E2_correccion.md` deben estar contemplados.
 
 Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-📅 **Fecha de entrega**: Semana del 29/06/2026
+📅 **Fecha de entrega**: semana del XX/XX/2026. 
+
+### 3️⃣ Entrega Final - Assembler y binario
+
+**Objetivo**: Realizar un compilador utilizando el archivo generado en la segunda entrega. 
+El programa ejecutable deberá procesar el archivo de entrada (test.txt), compilarlo y ejecutarlo.
+
+La entrega 3.0.0 incluirá:
+- Todo lo realizado en la primer y segunda entrega.
+- El archivo assembler que se llamará `final.asm`
+- El archivo por lotes `run.bat` (o equivalente según el sistema operativo que desee utilizar) que incluirá las sentencias necesarias para compilar con TASM y TLINK el archivo `final.asm` generado por el compilador
+- Cree el tag 3.0.0 en su repositorio dónde se generará un zip con los archivos necesarios.
+
+✅ **Criterio de aprobación:**
+- El código assembler debe generarse correctamente y generar el binario final.
+- El programa de prueba debe ejecutarse sin problemas en DOSBox o en GUI Turbo Assembler.
+
+📅 **Fecha de entrega**: semana del XX/XX/2026
 
 ### 👥 Coloquio Grupal
 
-Lunes 06/07/2026 y Martes 07/07/2026 de forma presencial.
+Lunes XX/XX/2026 y Martes XX/XX/2026 de forma presencial.
 
 ## 📚 Temas comunes
 
@@ -156,8 +132,7 @@ Los temas comunes se describen [aquí](Temas%20Comunes.md)
 
 ## ⭐ Temas especiales
 
-Los temas especiales se describen [aquí](Temas%20Especiales.md)
-
+Los temas especiales se encontrarán en cada repositorio privado dentro de la carpeta `./temas`
 
 ## 🛠️ ¿Qué templates puedo usar para llevar a cabo el Trabajo Práctico?
 
@@ -183,12 +158,3 @@ Dejamos a continuación, las plantillas disponibles:
 | Java CUP | Java | LALR(1) | http://www2.cs.tum.edu/projects/cup/ |
 | PLY (Python Lex-Yacc) | Python | LALR(1) | https://www.dabeaz.com/ply/ |
 | Rustemo | Rust | LR (LALR(1), GLR opcional) | https://github.com/igordejanovic/rustemo |
-
-### 🧠 Notas rápidas (importantes)
-- Todos son estilo Yacc → usan parsing bottom-up (LR)
-- LALR(1) es el común denominador
-- Diferencias reales:
-   - Bison → el más completo y potente
-   - Java CUP → uso académico
-   - PLY → simple y práctico en Python
-   - Rustemo → moderno (soporta GLR)
