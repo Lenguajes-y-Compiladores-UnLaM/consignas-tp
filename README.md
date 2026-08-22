@@ -110,7 +110,7 @@ La entrega 3.0.0 incluirá:
 - El código assembler debe generarse correctamente y generar el binario final.
 - El programa de prueba debe ejecutarse sin problemas en DOSBox o en GUI Turbo Assembler.
 
-📅 **Fecha de entrega**: semana del 9/11/2026
+📅 **Fecha de entrega**: el día del coloquio, lunes 9/11/2026 o martes 10/11/2026.
 
 ### 👥 Coloquio Grupal
 
