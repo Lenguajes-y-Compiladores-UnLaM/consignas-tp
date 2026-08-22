@@ -71,8 +71,9 @@ La entrega 1.0.0 incluirá:
 
 En la raíz de su repositorio encontrará un archivo dentro de la carpeta corrección `correccion\E1_autocorreccion.md` dónde el mismo equipo podrá corroborar si la entrega está aprobada o no.
 
-📅 **Fecha de entrega**: auto-corrección por el equipo. Recomendamos que esta primer entrega la tengan realizada una semana antes del primer parcial para evacuar todas las dudas que puedan surgir de cara al mismo. De necesitar una validación docente se puede notificar enviando un mail a lenguajesycompiladores@gmail.com asunto NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc) pero no es obligatoria.
+📅 **Fecha de entrega**: auto-corrección por el equipo. 
 
+_Recomendamos que esta primer entrega la tengan realizada una semana antes del primer parcial para evacuar todas las dudas que puedan surgir en la auto-corrección. De necesitar una validación docente se puede notificar enviando un mail a lenguajesycompiladores@gmail.com asunto NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc) pero no es obligatorio._
 
 ### 2️⃣ Segunda Entrega - GCI:
 
@@ -91,7 +92,7 @@ La entrega 2.0.0 incluirá:
 
 Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
-Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
+Asunto: NombredelDocente_GrupoXX (Ej: Daniel_Grupo03, Eleazar_Grupo02)
 
 📅 **Fecha de entrega**: semana del 19/10/2026. 
 
