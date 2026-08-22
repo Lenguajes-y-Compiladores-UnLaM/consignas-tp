@@ -69,9 +69,9 @@ La entrega 1.0.0 incluirá:
 - Todos los casos de prueba presentes en el archivo `correccion\E1_autocorreccion.md` deben estar contemplados.
 - La tabla de símbolos debe generarse respetando la estructura descrita en la consigna.
 
-En la raiz de su repositorio encontrará un archivo dentro de la carpeta correccion `correccion\E1_autocorreccion.md` dónde el mismo equipo podrá corroborar si la entrega está aprobada o no.
+En la raíz de su repositorio encontrará un archivo dentro de la carpeta corrección `correccion\E1_autocorreccion.md` dónde el mismo equipo podrá corroborar si la entrega está aprobada o no.
 
-📅 **Fecha de entrega**: auto-corrección por el equipo. Recomendamos que esta primer entrega la tengan realizada una semana antes del primer parcial para evacuar todas las dudas que puedan surgir de cara al mismo. De necesitar una validación docente se puede notificar enviando un mail a lenguajesycompiladores@gmail.com asunto NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc).
+📅 **Fecha de entrega**: auto-corrección por el equipo. Recomendamos que esta primer entrega la tengan realizada una semana antes del primer parcial para evacuar todas las dudas que puedan surgir de cara al mismo. De necesitar una validación docente se puede notificar enviando un mail a lenguajesycompiladores@gmail.com asunto NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02, Etc) pero no es obligatoria.
 
 
 ### 2️⃣ Segunda Entrega - GCI:
@@ -93,7 +93,7 @@ Envíe el enlace del tag generado enviado a: lenguajesycompiladores@gmail.com
 
 Asunto: NombredelDocente_GrupoXX (Ej Daniel_Grupo03, Eleazar_Grupo02)
 
-📅 **Fecha de entrega**: semana del XX/XX/2026. 
+📅 **Fecha de entrega**: semana del 19/10/2026. 
 
 ### 3️⃣ Entrega Final - Assembler y binario
 
@@ -110,11 +110,11 @@ La entrega 3.0.0 incluirá:
 - El código assembler debe generarse correctamente y generar el binario final.
 - El programa de prueba debe ejecutarse sin problemas en DOSBox o en GUI Turbo Assembler.
 
-📅 **Fecha de entrega**: semana del XX/XX/2026
+📅 **Fecha de entrega**: semana del 9/11/2026
 
 ### 👥 Coloquio Grupal
 
-Lunes XX/XX/2026 y Martes XX/XX/2026 de forma presencial.
+Lunes 9/11/2026 y Martes 10/11/2026 de forma virtual.
 
 ## 📚 Temas comunes
 
